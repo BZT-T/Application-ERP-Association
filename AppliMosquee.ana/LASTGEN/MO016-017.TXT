@@ -1,0 +1,3 @@
+//MO016-017.TXT ANA00016 TO ANA00017
+Eleve		TAR	697	nouvelle taille enregistrement : 697
+Eleve	Sourates	RUB-		la rubrique Sourates est supprimée

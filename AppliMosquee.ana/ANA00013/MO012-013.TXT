@@ -1,0 +1,3 @@
+//MO012-013.TXT ANA00012 TO ANA00013
+Eleve		TAR	5698	nouvelle taille enregistrement : 5698
+Eleve	Sourates	RUB+		Sourates est une nouvelle rubrique

@@ -1,0 +1,6 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Eleve		TAR	230	nouvelle taille enregistrement : 230
+Eleve	Ville	RUB+		Ville est une nouvelle rubrique
+Eleve	Groupe	RUB+		Groupe est une nouvelle rubrique
+Absence		NFI		nouveau fichier
+Contrainte_Eleve_Absence		NWL	Eleve (IDEleve) et Absence (IDEleve)	Nouvelle liaison entre les fichiers Eleve (IDEleve) et Absence (IDEleve)

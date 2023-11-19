@@ -1,0 +1,4 @@
+//MO011-012.TXT ANA00011 TO ANA00012
+Eleve		TAR	697	nouvelle taille enregistrement : 697
+Eleve	Sourate	RUB+		Sourate est une nouvelle rubrique
+Eleve	ligne	RUB+		ligne est une nouvelle rubrique

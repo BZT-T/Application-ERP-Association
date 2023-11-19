@@ -1,0 +1,5 @@
+//MO014-015.TXT ANA00014 TO ANA00015
+Filtre_Eleve		TAR	7422	nouvelle taille enregistrement : 7422
+Filtre_Eleve	Filtre_Groupe	TAI+	900	la rubrique Filtre_Groupe a comme nouvelle taille 1001 au lieu de 101
+Filtre_Eleve	Filtre_Sourate_En_Cours	TAI+	3100	la rubrique Filtre_Sourate_En_Cours a comme nouvelle taille 3201 au lieu de 101
+Filtre_Eleve	Filtre_Sourate_Appris	RUB+		Filtre_Sourate_Appris est une nouvelle rubrique

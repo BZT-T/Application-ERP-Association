@@ -1,0 +1,4 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Eleve		TAR	234	nouvelle taille enregistrement : 234
+Eleve	nbPoint	RUB+		nbPoint est une nouvelle rubrique
+Point		NFI		nouveau fichier

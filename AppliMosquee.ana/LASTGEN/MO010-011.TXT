@@ -1,0 +1,10 @@
+//MO010-011.TXT ANA00010 TO ANA00011
+Eleve		TAR	643	nouvelle taille enregistrement : 643
+Eleve	NomPere	RUB+		NomPere est une nouvelle rubrique
+Eleve	PrenomPere	RUB+		PrenomPere est une nouvelle rubrique
+Eleve	NomMere	RUB+		NomMere est une nouvelle rubrique
+Eleve	PrenomMere	RUB+		PrenomMere est une nouvelle rubrique
+Eleve	RevisionPere	RUB+		RevisionPere est une nouvelle rubrique
+Eleve	RevisionMere	RUB+		RevisionMere est une nouvelle rubrique
+Eleve	LecturePere	RUB+		LecturePere est une nouvelle rubrique
+Eleve	LectureMere	RUB+		LectureMere est une nouvelle rubrique
