@@ -1,0 +1,3 @@
+//MO020-021.TXT ANA00020 TO ANA00021
+Configuration		TAR	137	nouvelle taille enregistrement : 137
+Configuration	sAuthentifier	RUB+		sAuthentifier est une nouvelle rubrique

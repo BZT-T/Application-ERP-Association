@@ -1,0 +1,4 @@
+//MO021-022.TXT ANA00021 TO ANA00022
+Configuration		TAR	71	nouvelle taille enregistrement : 71
+Configuration	CodePin	RUB+		CodePin est une nouvelle rubrique
+Configuration	CodePin	RUB-		la rubrique CodePin est supprimée
