@@ -1,3 +1,7 @@
-//MO023-024.TXT ANA00023 TO ANA00024
-Configuration		TAR	71	nouvelle taille enregistrement : 71
-Configuration	CodePin	RUB+		CodePin est une nouvelle rubrique
+//MO024-025.TXT ANA00024 TO ANA00025
+Configuration		TAR	73	nouvelle taille enregistrement : 73
+Configuration	CodePin1	NNR	CodePin	ATTENTION : la rubrique CodePin a pour nouveau nom CodePin1
+Configuration	CodePin1	CNW	Entier non signé sur 1 octet$Entier non signé sur 2 octets	la rubrique CodePin1 a pour nouveau type Entier non signé sur 1 octet
+Configuration	CodePin2	RUB+		CodePin2 est une nouvelle rubrique
+Configuration	CodePin3	RUB+		CodePin3 est une nouvelle rubrique
+Configuration	CodePin4	RUB+		CodePin4 est une nouvelle rubrique
