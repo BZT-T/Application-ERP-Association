@@ -1,0 +1,14 @@
+[14:44:36:46] - Ouverture
+[14:44:36:57] - FEN_Authentification - Ouverture
+[14:44:36:64] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[14:44:36:65] - MConfiguration - RecupereConf() : récupération réussit
+[14:44:37:93] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[14:44:38:10] - MFiltre_Eleve - init() : Initialisation réussit
+[14:44:38:10] - FEN_MAIN - Ouverture de FI_Eleves
+[14:44:38:16] - FI_Eleves - Ouverture
+[14:44:38:17] - MEleve - ListeEleves() : on liste les élèves
+[14:44:38:47] - MEleve - ListeEleves() : on a listé <6> élèves
+[14:44:49:64] - FI_Eleves - Fermeture
+[14:44:49:98] - Fermeture
+
+
