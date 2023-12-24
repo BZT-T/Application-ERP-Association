@@ -1,4 +1,1 @@
-//MO026-027.TXT ANA00026 TO ANA00027
-Facture		TAR	390	nouvelle taille enregistrement : 390
-Facture	IDCompte	RUB+		IDCompte est une nouvelle clé
-Compte		NFI		nouveau fichier
+//MO027-028.TXT ANA00027 TO ANA00028
