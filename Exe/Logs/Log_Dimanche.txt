@@ -1,1219 +1,1506 @@
-[15:38:20:66] - Ouverture
-[15:38:20:84] - FEN_Authentification - Ouverture
-[15:38:20:91] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[15:38:20:94] - MConfiguration - RecupereConf() : récupération réussit
-[15:38:22:29] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[15:38:23:20] - MFiltre_Eleve - init() : Initialisation réussit
-[15:38:23:20] - FEN_MAIN - Ouverture de FI_Eleves
-[15:38:23:28] - FI_Eleves - Ouverture
-[15:38:23:28] - MEleve - ListeEleves() : on liste les élèves
-[15:38:23:56] - MEleve - ListeEleves() : on a listé <7> élèves
-[15:38:32:16] - FEN_MAIN - Ouverture de FI_Comptabilite
-[15:38:32:16] - FI_Eleves - Fermeture
-[15:38:32:22] - FI_Comptabilite - Ouverture
-[15:38:32:22] - MFacture - ListeFacture() : on liste les factures
-[15:38:32:23] - MFacture - ListeFacture() : on a listé <13> factures
-[15:38:32:23] - MCompte - ListeCompte() : on liste les factures
-[15:38:32:24] - MCompte - ListeCompte() : on a listé <3> comptes
-[15:38:40:10] - FI_Comptabilite - Fermeture
-[15:38:40:17] - FI_Facture - Ouverture
-[15:38:40:31] - MFacture - ListeFacture() : on liste les factures
-[15:38:40:31] - MFacture - ListeFacture() : on a listé <13> factures
-[15:39:52:63] - FI_Facture - Fermeture
-[15:39:52:69] - FI_Comptabilite - Ouverture
-[15:39:52:69] - MFacture - ListeFacture() : on liste les factures
-[15:39:52:69] - MFacture - ListeFacture() : on a listé <13> factures
-[15:39:52:69] - MCompte - ListeCompte() : on liste les factures
-[15:39:52:71] - MCompte - ListeCompte() : on a listé <3> comptes
-[15:39:55:01] - FI_Comptabilite - Fermeture
-[15:39:55:06] - FI_Facture - Ouverture
-[15:39:55:19] - MFacture - ListeFacture() : on liste les factures
-[15:39:55:19] - MFacture - ListeFacture() : on a listé <13> factures
-[15:40:01:08] - FI_Facture - Fermeture
-[15:40:01:30] - FI_Eleves - Fermeture
-[15:40:01:38] - Fermeture
+[16:10:37:77] - Ouverture
+[16:10:45:70] - Ouverture
+[16:11:24:41] - Ouverture
+[16:11:24:51] - FEN_Authentification - Ouverture
+[16:11:24:57] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[16:11:24:62] - MConfiguration - RecupereConf() : récupération réussit
+[16:11:25:97] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[16:11:26:85] - MFiltre_Eleve - init() : Initialisation réussit
+[16:11:26:85] - FEN_MAIN - Ouverture de FI_Eleves
+[16:11:26:92] - FI_Eleves - Ouverture
+[16:11:26:93] - MEleve - ListeEleves() : on liste les élèves
+[16:11:27:21] - MEleve - ListeEleves() : on a listé <7> élèves
+[16:11:33:31] - FEN_MAIN - Ouverture de FI_Notes
+[16:11:33:31] - FI_Eleves - Fermeture
+[16:11:33:45] - FI_Notes - Ouverture
+[16:11:33:46] - MNotes - ListeNote() : on liste les documents
+[16:11:33:46] - MNotes - ListeNote() : on a listé <5> notes
+[16:11:35:70] - FEN_MAIN - Ouverture de FI_Comptabilite
+[16:11:35:70] - FI_Notes - Fermeture
+[16:11:35:75] - FI_Comptabilite - Ouverture
+[16:11:35:75] - MFacture - ListeFacture() : on liste les factures
+[16:11:35:75] - MFacture - ListeFacture() : on a listé <12> factures
+[16:11:35:75] - MCompte - ListeCompte() : on liste les factures
+[16:11:35:75] - MCompte - ListeCompte() : on a listé <3> comptes
+[16:11:37:65] - FI_Comptabilite - Fermeture
+[16:11:37:80] - FI_Facture - Ouverture
+[16:11:37:97] - MFacture - ListeFacture() : on liste les factures
+[16:11:37:97] - MFacture - ListeFacture() : on a listé <12> factures
+[16:11:45:69] - MFacture - ListeFacture() : on liste les factures
+[16:11:45:70] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:45:70] - MFacture - ListeFacture() : on liste les factures
+[16:11:45:71] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:46:02] - MFacture - ListeFacture() : on liste les factures
+[16:11:46:03] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:46:33] - MFacture - ListeFacture() : on liste les factures
+[16:11:46:33] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:47:00] - MFacture - ListeFacture() : on liste les factures
+[16:11:47:00] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:47:00] - MFacture - ListeFacture() : on liste les factures
+[16:11:47:01] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:47:32] - MFacture - ListeFacture() : on liste les factures
+[16:11:47:34] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:51:88] - MFacture - ListeFacture() : on liste les factures
+[16:11:51:88] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:52:41] - MFacture - ListeFacture() : on liste les factures
+[16:11:52:41] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:52:41] - MFacture - ListeFacture() : on liste les factures
+[16:11:52:42] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:52:74] - MFacture - ListeFacture() : on liste les factures
+[16:11:52:74] - MFacture - ListeFacture() : on a listé <12> factures
+[16:11:53:87] - MFacture - ListeFacture() : on liste les factures
+[16:11:53:87] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:53:87] - MFacture - ListeFacture() : on liste les factures
+[16:11:53:88] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:54:19] - MFacture - ListeFacture() : on liste les factures
+[16:11:54:20] - MFacture - ListeFacture() : on liste les factures
+[16:11:54:21] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:54:21] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:54:56] - MFacture - ListeFacture() : on liste les factures
+[16:11:54:56] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:55:37] - MFacture - ListeFacture() : on liste les factures
+[16:11:55:38] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:55:67] - MFacture - ListeFacture() : on liste les factures
+[16:11:55:67] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:55:67] - MFacture - ListeFacture() : on liste les factures
+[16:11:55:68] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:55:99] - MFacture - ListeFacture() : on liste les factures
+[16:11:55:99] - MFacture - ListeFacture() : on liste les factures
+[16:11:56:00] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:56:00] - MFacture - ListeFacture() : on liste les factures
+[16:11:56:01] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:56:01] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:58:95] - MFacture - ListeFacture() : on liste les factures
+[16:11:58:96] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:59:46] - MFacture - ListeFacture() : on liste les factures
+[16:11:59:46] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:59:46] - MFacture - ListeFacture() : on liste les factures
+[16:11:59:47] - MFacture - ListeFacture() : on a listé <2> factures
+[16:11:59:77] - MFacture - ListeFacture() : on liste les factures
+[16:11:59:78] - MFacture - ListeFacture() : on liste les factures
+[16:11:59:79] - MFacture - ListeFacture() : on a listé <6> factures
+[16:11:59:79] - MFacture - ListeFacture() : on a listé <12> factures
+[16:12:04:04] - FI_Facture - Fermeture
+[16:12:04:27] - FI_Eleves - Fermeture
+[16:12:04:34] - Fermeture
 
 
-[16:07:11:91] - Ouverture
-[16:07:11:98] - FEN_Authentification - Ouverture
-[16:07:12:02] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:07:12:04] - MConfiguration - RecupereConf() : récupération réussit
-[16:07:13:28] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:07:13:41] - MFiltre_Eleve - init() : Initialisation réussit
-[16:07:13:42] - FEN_MAIN - Ouverture de FI_Eleves
-[16:07:13:46] - FI_Eleves - Ouverture
-[16:07:13:46] - MEleve - ListeEleves() : on liste les élèves
-[16:07:13:64] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:07:15:01] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:07:15:01] - FI_Eleves - Fermeture
-[16:07:15:04] - FI_Comptabilite - Ouverture
-[16:07:15:04] - MFacture - ListeFacture() : on liste les factures
-[16:07:15:04] - MFacture - ListeFacture() : on a listé <13> factures
-[16:07:15:04] - MCompte - ListeCompte() : on liste les factures
-[16:07:15:04] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:07:18:43] - FI_Comptabilite - Fermeture
-[16:07:18:47] - FI_Facture - Ouverture
-[16:07:18:55] - MFacture - ListeFacture() : on liste les factures
-[16:07:18:56] - MFacture - ListeFacture() : on a listé <13> factures
-[16:07:24:09] - FI_Facture - BTN_Ajouter_une_facture
-[16:07:24:26] - FEN_AjouterFacture - Ouverture
-[16:07:36:70] - FEN_AjouterFacture - Fermeture
-[16:07:40:39] - FI_Facture - Fermeture
-[16:07:40:53] - FI_Eleves - Fermeture
-[16:07:40:58] - Fermeture
+[16:12:29:55] - Ouverture
+[16:12:29:62] - FEN_Authentification - Ouverture
+[16:12:29:66] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[16:12:29:68] - MConfiguration - RecupereConf() : récupération réussit
+[16:12:31:00] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[16:12:31:20] - MFiltre_Eleve - init() : Initialisation réussit
+[16:12:31:20] - FEN_MAIN - Ouverture de FI_Eleves
+[16:12:31:25] - FI_Eleves - Ouverture
+[16:12:31:26] - MEleve - ListeEleves() : on liste les élèves
+[16:12:31:53] - MEleve - ListeEleves() : on a listé <7> élèves
+[16:12:33:88] - FEN_MAIN - Ouverture de FI_Comptabilite
+[16:12:33:88] - FI_Eleves - Fermeture
+[16:12:33:93] - FI_Comptabilite - Ouverture
+[16:12:33:93] - MFacture - ListeFacture() : on liste les factures
+[16:12:33:94] - MFacture - ListeFacture() : on a listé <12> factures
+[16:12:33:94] - MCompte - ListeCompte() : on liste les factures
+[16:12:33:97] - MCompte - ListeCompte() : on a listé <3> comptes
+[16:12:37:97] - FI_Comptabilite - Fermeture
+[16:12:38:08] - FI_Facture - Ouverture
+[16:12:38:24] - MFacture - ListeFacture() : on liste les factures
+[16:12:38:24] - MFacture - ListeFacture() : on a listé <12> factures
+[16:12:43:12] - MFacture - ListeFacture() : on liste les factures
+[16:12:43:12] - MFacture - ListeFacture() : on a listé <6> factures
+[16:12:53:92] - MFacture - ListeFacture() : on liste les factures
+[16:12:53:92] - MFacture - ListeFacture() : on a listé <6> factures
+[16:12:57:03] - MFacture - ListeFacture() : on liste les factures
+[16:12:57:04] - MFacture - ListeFacture() : on a listé <12> factures
+[16:13:02:28] - MFacture - ListeFacture() : on liste les factures
+[16:13:02:29] - MFacture - ListeFacture() : on a listé <6> factures
+[16:13:52:17] - FI_Facture - BTN_Imprimer
+[16:14:24:25] - FI_Facture - Fermeture
+[16:14:24:49] - FI_Eleves - Fermeture
+[16:14:24:56] - Fermeture
 
 
-[16:26:09:03] - Ouverture
-[16:26:09:11] - FEN_Authentification - Ouverture
-[16:26:09:15] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:26:09:17] - MConfiguration - RecupereConf() : récupération réussit
-[16:26:10:44] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:26:10:57] - MFiltre_Eleve - init() : Initialisation réussit
-[16:26:10:57] - FEN_MAIN - Ouverture de FI_Eleves
-[16:26:10:61] - FI_Eleves - Ouverture
-[16:26:10:61] - MEleve - ListeEleves() : on liste les élèves
-[16:26:10:80] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:26:12:06] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:26:12:06] - FI_Eleves - Fermeture
-[16:26:12:09] - FI_Comptabilite - Ouverture
-[16:26:12:09] - MFacture - ListeFacture() : on liste les factures
-[16:26:12:10] - MFacture - ListeFacture() : on a listé <13> factures
-[16:26:12:10] - MCompte - ListeCompte() : on liste les factures
-[16:26:12:11] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:26:13:07] - FI_Comptabilite - Fermeture
-[16:26:13:12] - FI_Facture - Ouverture
-[16:26:13:22] - MFacture - ListeFacture() : on liste les factures
-[16:26:13:22] - MFacture - ListeFacture() : on a listé <13> factures
-[16:26:19:72] - FEN_AjouterFacture - Ouverture
-[16:26:21:83] - FEN_AjouterFacture - Fermeture
-[16:26:26:09] - FEN_AjouterFacture - Ouverture
-[16:26:29:05] - FEN_AjouterFacture - Fermeture
-[16:26:35:44] - FEN_AjouterFacture - Ouverture
-[16:26:38:62] - FEN_AjouterFacture - Fermeture
-[16:26:41:12] - FI_Facture - Fermeture
-[16:26:41:28] - FI_Eleves - Fermeture
-[16:26:41:35] - Fermeture
+[16:16:03:37] - Ouverture
+[16:16:03:44] - FEN_Authentification - Ouverture
+[16:16:03:48] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[16:16:03:49] - MConfiguration - RecupereConf() : récupération réussit
+[16:16:04:84] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[16:16:05:04] - MFiltre_Eleve - init() : Initialisation réussit
+[16:16:05:04] - FEN_MAIN - Ouverture de FI_Eleves
+[16:16:05:13] - FI_Eleves - Ouverture
+[16:16:05:13] - MEleve - ListeEleves() : on liste les élèves
+[16:16:05:40] - MEleve - ListeEleves() : on a listé <7> élèves
+[16:16:06:96] - FEN_MAIN - Ouverture de FI_Comptabilite
+[16:16:06:96] - FI_Eleves - Fermeture
+[16:16:07:01] - FI_Comptabilite - Ouverture
+[16:16:07:01] - MFacture - ListeFacture() : on liste les factures
+[16:16:07:02] - MFacture - ListeFacture() : on a listé <12> factures
+[16:16:07:02] - MCompte - ListeCompte() : on liste les factures
+[16:16:07:02] - MCompte - ListeCompte() : on a listé <3> comptes
+[16:16:08:23] - FEN_Compte - Ouverture
+[16:16:11:81] - FEN_Compte - Fermeture
+[16:16:13:52] - FI_Comptabilite - Fermeture
+[16:16:13:73] - FI_Eleves - Fermeture
+[16:16:13:79] - Fermeture
 
 
-[16:30:28:77] - Ouverture
-[16:30:28:84] - FEN_Authentification - Ouverture
-[16:30:28:89] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:30:28:91] - MConfiguration - RecupereConf() : récupération réussit
-[16:30:30:16] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:30:30:29] - MFiltre_Eleve - init() : Initialisation réussit
-[16:30:30:30] - FEN_MAIN - Ouverture de FI_Eleves
-[16:30:30:34] - FI_Eleves - Ouverture
-[16:30:30:34] - MEleve - ListeEleves() : on liste les élèves
-[16:30:30:53] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:30:31:20] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:30:31:20] - FI_Eleves - Fermeture
-[16:30:31:23] - FI_Comptabilite - Ouverture
-[16:30:31:23] - MFacture - ListeFacture() : on liste les factures
-[16:30:31:23] - MFacture - ListeFacture() : on a listé <13> factures
-[16:30:31:23] - MCompte - ListeCompte() : on liste les factures
-[16:30:31:25] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:30:32:04] - FI_Comptabilite - Fermeture
-[16:30:32:09] - FI_Facture - Ouverture
-[16:30:32:19] - MFacture - ListeFacture() : on liste les factures
-[16:30:32:19] - MFacture - ListeFacture() : on a listé <13> factures
-[16:30:33:73] - FEN_AjouterFacture - Ouverture
-[16:30:38:01] - FEN_AjouterFacture - Fermeture
-[16:31:26:76] - Ouverture
-[16:31:26:85] - FEN_Authentification - Ouverture
-[16:31:26:90] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:31:26:90] - MConfiguration - RecupereConf() : récupération réussit
-[16:31:28:16] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:31:28:29] - MFiltre_Eleve - init() : Initialisation réussit
-[16:31:28:29] - FEN_MAIN - Ouverture de FI_Eleves
-[16:31:28:33] - FI_Eleves - Ouverture
-[16:31:28:33] - MEleve - ListeEleves() : on liste les élèves
-[16:31:28:51] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:31:29:46] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:31:29:46] - FI_Eleves - Fermeture
-[16:31:29:49] - FI_Comptabilite - Ouverture
-[16:31:29:49] - MFacture - ListeFacture() : on liste les factures
-[16:31:29:50] - MFacture - ListeFacture() : on a listé <13> factures
-[16:31:29:50] - MCompte - ListeCompte() : on liste les factures
-[16:31:29:51] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:31:30:42] - FI_Comptabilite - Fermeture
-[16:31:30:48] - FI_Facture - Ouverture
-[16:31:30:57] - MFacture - ListeFacture() : on liste les factures
-[16:31:30:58] - MFacture - ListeFacture() : on a listé <13> factures
-[16:31:32:55] - FEN_AjouterFacture - Ouverture
-[16:31:35:13] - FEN_AjouterFacture - Fermeture
-[16:32:20:67] - FI_Facture - Fermeture
-[16:32:20:72] - FI_Comptabilite - Ouverture
-[16:32:20:72] - MFacture - ListeFacture() : on liste les factures
-[16:32:20:73] - MFacture - ListeFacture() : on a listé <13> factures
-[16:32:20:73] - MCompte - ListeCompte() : on liste les factures
-[16:32:20:75] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:32:20:91] - FEN_MAIN - Ouverture de FI_Eleves
-[16:32:20:91] - FI_Comptabilite - Fermeture
-[16:32:20:95] - FI_Eleves - Ouverture
-[16:32:20:95] - MEleve - ListeEleves() : on liste les élèves
-[16:32:20:96] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:32:59:62] - Ouverture
-[16:32:59:70] - FEN_Authentification - Ouverture
-[16:32:59:75] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:32:59:76] - MConfiguration - RecupereConf() : récupération réussit
-[16:33:01:03] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:33:01:18] - MFiltre_Eleve - init() : Initialisation réussit
-[16:33:01:18] - FEN_MAIN - Ouverture de FI_Eleves
-[16:33:01:22] - FI_Eleves - Ouverture
-[16:33:01:22] - MEleve - ListeEleves() : on liste les élèves
-[16:33:01:41] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:33:02:01] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:33:02:01] - FI_Eleves - Fermeture
-[16:33:02:04] - FI_Comptabilite - Ouverture
-[16:33:02:04] - MFacture - ListeFacture() : on liste les factures
-[16:33:02:04] - MFacture - ListeFacture() : on a listé <13> factures
-[16:33:02:04] - MCompte - ListeCompte() : on liste les factures
-[16:33:02:07] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:33:02:76] - FI_Comptabilite - Fermeture
-[16:33:02:82] - FI_Facture - Ouverture
-[16:33:02:91] - MFacture - ListeFacture() : on liste les factures
-[16:33:02:91] - MFacture - ListeFacture() : on a listé <13> factures
-[16:33:06:26] - FEN_AjouterFacture - Ouverture
-[16:33:14:40] - FEN_AjouterFacture - Fermeture
-[16:38:26:92] - Ouverture
-[16:38:27:00] - FEN_Authentification - Ouverture
-[16:38:27:06] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:38:27:07] - MConfiguration - RecupereConf() : récupération réussit
-[16:38:28:34] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:38:28:47] - MFiltre_Eleve - init() : Initialisation réussit
-[16:38:28:47] - FEN_MAIN - Ouverture de FI_Eleves
-[16:38:28:51] - FI_Eleves - Ouverture
-[16:38:28:51] - MEleve - ListeEleves() : on liste les élèves
-[16:38:28:71] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:38:29:39] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:38:29:39] - FI_Eleves - Fermeture
-[16:38:29:42] - FI_Comptabilite - Ouverture
-[16:38:29:42] - MFacture - ListeFacture() : on liste les factures
-[16:38:29:42] - MFacture - ListeFacture() : on a listé <13> factures
-[16:38:29:42] - MCompte - ListeCompte() : on liste les factures
-[16:38:29:42] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:38:29:97] - FI_Comptabilite - Fermeture
-[16:38:30:03] - FI_Facture - Ouverture
-[16:38:30:13] - MFacture - ListeFacture() : on liste les factures
-[16:38:30:13] - MFacture - ListeFacture() : on a listé <13> factures
-[16:38:33:10] - FEN_AjouterFacture - Ouverture
-[16:38:36:08] - FEN_AjouterFacture - Fermeture
-[16:38:36:51] - MFacture - enregistre() : on enregistre la facture <9>
-[16:38:36:51] - MFacture - enregistre() : l'enregistrement de la facture <9> a réussit 
-[16:38:47:88] - FEN_AjouterFacture - Ouverture
-[16:38:54:80] - FEN_AjouterFacture - Fermeture
-[16:38:55:24] - MFacture - enregistre() : on enregistre la facture <3>
-[16:38:55:25] - MFacture - enregistre() : l'enregistrement de la facture <3> a réussit 
-[16:39:21:36] - FI_Facture - BTN_Imprimer
-[16:39:36:84] - FI_Facture - BTN_Ajouter_une_facture
-[16:39:37:04] - FEN_AjouterFacture - Ouverture
-[16:39:50:81] - FEN_AjouterFacture - Fermeture
-[16:39:51:27] - MFacture - enregistre() : on enregistre la facture <0>
-[16:39:51:27] - MFacture - enregistre() : l'enregistrement de la facture <14> a réussit 
-[16:39:55:93] - FEN_AjouterFacture - Ouverture
-[16:39:58:00] - FEN_AjouterFacture - Fermeture
-[16:39:58:46] - MFacture - enregistre() : on enregistre la facture <1>
-[16:39:58:46] - MFacture - enregistre() : l'enregistrement de la facture <1> a réussit 
-[16:40:08:28] - FEN_AjouterFacture - Ouverture
-[16:40:13:87] - FEN_AjouterFacture - Fermeture
-[16:40:14:32] - MFacture - enregistre() : on enregistre la facture <1>
-[16:40:14:32] - MFacture - enregistre() : l'enregistrement de la facture <1> a réussit 
-[16:40:31:87] - FI_Facture - Fermeture
-[16:40:31:91] - FI_Comptabilite - Ouverture
-[16:40:31:91] - MFacture - ListeFacture() : on liste les factures
-[16:40:31:91] - MFacture - ListeFacture() : on a listé <14> factures
-[16:40:31:91] - MCompte - ListeCompte() : on liste les factures
-[16:40:31:93] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:40:35:44] - FI_Comptabilite - Fermeture
-[16:40:35:59] - FI_Eleves - Fermeture
-[16:40:35:65] - Fermeture
+[16:56:18:62] - Ouverture
+[16:56:18:70] - FEN_Authentification - Ouverture
+[16:56:18:76] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[16:56:18:77] - MConfiguration - RecupereConf() : récupération réussit
+[16:56:20:10] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[16:56:20:26] - MFiltre_Eleve - init() : Initialisation réussit
+[16:56:20:26] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[16:56:20:26] - MFiltre_Impression - init() : Initialisation réussit
+[16:56:20:27] - FEN_MAIN - Ouverture de FI_Eleves
+[16:56:20:32] - FI_Eleves - Ouverture
+[16:56:20:33] - MEleve - ListeEleves() : on liste les élèves
+[16:56:20:72] - MEleve - ListeEleves() : on a listé <7> élèves
+[16:56:22:50] - FEN_MAIN - Ouverture de FI_Comptabilite
+[16:56:22:50] - FI_Eleves - Fermeture
+[16:56:22:54] - FI_Comptabilite - Ouverture
+[16:56:22:54] - MFacture - ListeFacture() : on liste les factures
+[16:56:22:55] - MFacture - ListeFacture() : on a listé <12> factures
+[16:56:22:55] - MCompte - ListeCompte() : on liste les factures
+[16:56:22:55] - MCompte - ListeCompte() : on a listé <3> comptes
+[16:56:25:19] - FI_Comptabilite - Fermeture
+[16:56:25:31] - FI_Facture - Ouverture
+[16:56:25:45] - MFacture - ListeFacture() : on liste les factures
+[16:56:25:46] - MFacture - ListeFacture() : on a listé <12> factures
+[16:56:28:61] - FI_Facture - BTN_Imprimer
+[16:56:50:76] - FI_Facture - Fermeture
+[16:56:50:99] - FI_Eleves - Fermeture
+[16:56:51:03] - Fermeture
 
 
-[16:41:22:31] - Ouverture
-[16:41:22:39] - FEN_Authentification - Ouverture
-[16:41:22:44] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:41:22:46] - MConfiguration - RecupereConf() : récupération réussit
-[16:41:23:73] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:41:23:86] - MFiltre_Eleve - init() : Initialisation réussit
-[16:41:23:86] - FEN_MAIN - Ouverture de FI_Eleves
-[16:41:23:90] - FI_Eleves - Ouverture
-[16:41:23:90] - MEleve - ListeEleves() : on liste les élèves
-[16:41:24:09] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:41:25:08] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:41:25:08] - FI_Eleves - Fermeture
-[16:41:25:11] - FI_Comptabilite - Ouverture
-[16:41:25:11] - MFacture - ListeFacture() : on liste les factures
-[16:41:25:11] - MFacture - ListeFacture() : on a listé <14> factures
-[16:41:25:11] - MCompte - ListeCompte() : on liste les factures
-[16:41:25:13] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:41:26:19] - FI_Comptabilite - Fermeture
-[16:41:26:24] - FI_Facture - Ouverture
-[16:41:26:34] - MFacture - ListeFacture() : on liste les factures
-[16:41:26:34] - MFacture - ListeFacture() : on a listé <14> factures
-[16:41:32:42] - FI_Facture - BTN_Ajouter_une_facture
-[16:41:32:65] - FEN_AjouterFacture - Ouverture
-[16:41:43:53] - FEN_AjouterFacture - Fermeture
-[16:41:43:98] - MFacture - enregistre() : on enregistre la facture <0>
-[16:41:43:98] - MFacture - enregistre() : l'enregistrement de la facture <15> a réussit 
-[16:41:46:97] - FEN_MAIN - Ouverture de FI_Points
-[16:41:46:97] - FI_Facture - Fermeture
-[16:41:47:07] - FI_Points - Ouverture
-[16:41:47:07] - MPoint - ListePoint() : on liste les points
-[16:41:47:10] - MPoint - ListePoint() : on a listé <9> points
-[16:41:48:32] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:41:48:32] - FI_Points - Fermeture
-[16:41:48:35] - FI_Comptabilite - Ouverture
-[16:41:48:35] - MFacture - ListeFacture() : on liste les factures
-[16:41:48:36] - MFacture - ListeFacture() : on a listé <15> factures
-[16:41:48:36] - MCompte - ListeCompte() : on liste les factures
-[16:41:48:38] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:41:49:58] - FI_Comptabilite - Fermeture
-[16:41:49:63] - FI_Facture - Ouverture
-[16:41:49:71] - MFacture - ListeFacture() : on liste les factures
-[16:41:49:72] - MFacture - ListeFacture() : on a listé <15> factures
-[16:41:59:18] - FI_Facture - Fermeture
-[16:41:59:34] - FI_Eleves - Fermeture
-[16:41:59:42] - Fermeture
+[16:57:29:82] - Ouverture
+[16:57:29:92] - FEN_Authentification - Ouverture
+[16:57:29:96] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[16:57:29:98] - MConfiguration - RecupereConf() : récupération réussit
+[16:57:31:31] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[16:57:31:47] - MFiltre_Eleve - init() : Initialisation réussit
+[16:57:31:47] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[16:57:31:49] - MFiltre_Impression - init() : Initialisation réussit
+[16:57:31:49] - FEN_MAIN - Ouverture de FI_Eleves
+[16:57:31:56] - FI_Eleves - Ouverture
+[16:57:31:57] - MEleve - ListeEleves() : on liste les élèves
+[16:57:31:82] - MEleve - ListeEleves() : on a listé <7> élèves
+[16:57:33:28] - FEN_MAIN - Ouverture de FI_Comptabilite
+[16:57:33:28] - FI_Eleves - Fermeture
+[16:57:33:32] - FI_Comptabilite - Ouverture
+[16:57:33:32] - MFacture - ListeFacture() : on liste les factures
+[16:57:33:32] - MFacture - ListeFacture() : on a listé <12> factures
+[16:57:33:32] - MCompte - ListeCompte() : on liste les factures
+[16:57:33:32] - MCompte - ListeCompte() : on a listé <3> comptes
+[16:57:34:63] - FI_Comptabilite - Fermeture
+[16:57:34:74] - FI_Facture - Ouverture
+[16:57:34:88] - MFacture - ListeFacture() : on liste les factures
+[16:57:34:89] - MFacture - ListeFacture() : on a listé <12> factures
+[16:57:35:78] - FI_Facture - BTN_Imprimer
+[16:57:56:51] - Ouverture
+[16:57:56:59] - FEN_Authentification - Ouverture
+[16:57:56:64] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[16:57:56:66] - MConfiguration - RecupereConf() : récupération réussit
+[16:57:57:99] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[16:57:58:16] - MFiltre_Eleve - init() : Initialisation réussit
+[16:57:58:16] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[16:57:58:17] - MFiltre_Impression - init() : Initialisation réussit
+[16:57:58:18] - FEN_MAIN - Ouverture de FI_Eleves
+[16:57:58:23] - FI_Eleves - Ouverture
+[16:57:58:23] - MEleve - ListeEleves() : on liste les élèves
+[16:57:58:49] - MEleve - ListeEleves() : on a listé <7> élèves
+[16:57:59:70] - FEN_MAIN - Ouverture de FI_Comptabilite
+[16:57:59:70] - FI_Eleves - Fermeture
+[16:57:59:74] - FI_Comptabilite - Ouverture
+[16:57:59:74] - MFacture - ListeFacture() : on liste les factures
+[16:57:59:75] - MFacture - ListeFacture() : on a listé <12> factures
+[16:57:59:75] - MCompte - ListeCompte() : on liste les factures
+[16:57:59:75] - MCompte - ListeCompte() : on a listé <3> comptes
+[16:58:00:70] - FI_Comptabilite - Fermeture
+[16:58:00:80] - FI_Facture - Ouverture
+[16:58:00:94] - MFacture - ListeFacture() : on liste les factures
+[16:58:00:94] - MFacture - ListeFacture() : on a listé <12> factures
+[16:58:02:22] - FI_Facture - BTN_Imprimer
+[16:58:31:67] - FI_Facture - Fermeture
+[16:58:31:89] - FI_Eleves - Fermeture
+[16:58:31:95] - Fermeture
 
 
-[16:42:55:57] - Ouverture
-[16:42:55:73] - FEN_Authentification - Ouverture
-[16:42:55:77] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:42:55:78] - MConfiguration - RecupereConf() : récupération réussit
-[16:42:57:17] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:42:57:31] - MFiltre_Eleve - init() : Initialisation réussit
-[16:42:57:31] - FEN_MAIN - Ouverture de FI_Eleves
-[16:42:57:43] - FI_Eleves - Ouverture
-[16:42:57:44] - MEleve - ListeEleves() : on liste les élèves
-[16:42:57:62] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:42:58:45] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:42:58:45] - FI_Eleves - Fermeture
-[16:42:58:48] - FI_Comptabilite - Ouverture
-[16:42:58:48] - MFacture - ListeFacture() : on liste les factures
-[16:42:58:49] - MFacture - ListeFacture() : on a listé <15> factures
-[16:42:58:49] - MCompte - ListeCompte() : on liste les factures
-[16:42:58:49] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:42:58:97] - FI_Comptabilite - Fermeture
-[16:42:59:02] - FI_Facture - Ouverture
-[16:42:59:12] - MFacture - ListeFacture() : on liste les factures
-[16:42:59:12] - MFacture - ListeFacture() : on a listé <15> factures
-[16:43:02:10] - FEN_AjouterFacture - Ouverture
-[16:43:12:16] - FEN_AjouterFacture - Fermeture
-[16:43:33:24] - FI_Facture - Fermeture
-[16:43:33:40] - FI_Eleves - Fermeture
-[16:43:33:46] - Fermeture
+[16:59:02:91] - Ouverture
+[16:59:02:99] - FEN_Authentification - Ouverture
+[16:59:03:04] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[16:59:03:06] - MConfiguration - RecupereConf() : récupération réussit
+[16:59:04:38] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[16:59:04:56] - MFiltre_Eleve - init() : Initialisation réussit
+[16:59:04:56] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[16:59:04:58] - MFiltre_Impression - init() : Initialisation réussit
+[16:59:04:58] - FEN_MAIN - Ouverture de FI_Eleves
+[16:59:04:63] - FI_Eleves - Ouverture
+[16:59:04:63] - MEleve - ListeEleves() : on liste les élèves
+[16:59:04:89] - MEleve - ListeEleves() : on a listé <7> élèves
+[16:59:06:22] - FEN_MAIN - Ouverture de FI_Comptabilite
+[16:59:06:22] - FI_Eleves - Fermeture
+[16:59:06:26] - FI_Comptabilite - Ouverture
+[16:59:06:26] - MFacture - ListeFacture() : on liste les factures
+[16:59:06:27] - MFacture - ListeFacture() : on a listé <12> factures
+[16:59:06:27] - MCompte - ListeCompte() : on liste les factures
+[16:59:06:27] - MCompte - ListeCompte() : on a listé <3> comptes
+[16:59:06:88] - FI_Comptabilite - Fermeture
+[16:59:06:98] - FI_Facture - Ouverture
+[16:59:07:12] - MFacture - ListeFacture() : on liste les factures
+[16:59:07:12] - MFacture - ListeFacture() : on a listé <12> factures
+[16:59:08:15] - FI_Facture - BTN_Imprimer
+[16:59:36:60] - FI_Facture - Fermeture
+[16:59:36:82] - FI_Eleves - Fermeture
+[16:59:36:89] - Fermeture
 
 
-[16:46:03:52] - Ouverture
-[16:46:03:59] - FEN_Authentification - Ouverture
-[16:46:03:64] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[16:46:03:67] - MConfiguration - RecupereConf() : récupération réussit
-[16:46:04:93] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[16:46:05:06] - MFiltre_Eleve - init() : Initialisation réussit
-[16:46:05:06] - FEN_MAIN - Ouverture de FI_Eleves
-[16:46:05:10] - FI_Eleves - Ouverture
-[16:46:05:10] - MEleve - ListeEleves() : on liste les élèves
-[16:46:05:28] - MEleve - ListeEleves() : on a listé <7> élèves
-[16:46:06:04] - FEN_MAIN - Ouverture de FI_Comptabilite
-[16:46:06:04] - FI_Eleves - Fermeture
-[16:46:06:07] - FI_Comptabilite - Ouverture
-[16:46:06:07] - MFacture - ListeFacture() : on liste les factures
-[16:46:06:07] - MFacture - ListeFacture() : on a listé <15> factures
-[16:46:06:07] - MCompte - ListeCompte() : on liste les factures
-[16:46:06:10] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:46:06:66] - FI_Comptabilite - Fermeture
-[16:46:06:70] - FI_Facture - Ouverture
-[16:46:06:79] - MFacture - ListeFacture() : on liste les factures
-[16:46:06:79] - MFacture - ListeFacture() : on a listé <15> factures
-[16:46:38:78] - FI_Facture - Fermeture
-[16:46:38:82] - FI_Comptabilite - Ouverture
-[16:46:38:82] - MFacture - ListeFacture() : on liste les factures
-[16:46:38:82] - MFacture - ListeFacture() : on a listé <15> factures
-[16:46:38:82] - MCompte - ListeCompte() : on liste les factures
-[16:46:38:84] - MCompte - ListeCompte() : on a listé <3> comptes
-[16:46:43:72] - FI_Comptabilite - Fermeture
-[16:46:43:76] - FI_Facture - Ouverture
-[16:46:43:84] - MFacture - ListeFacture() : on liste les factures
-[16:46:43:85] - MFacture - ListeFacture() : on a listé <15> factures
-[16:47:34:69] - FI_Facture - Fermeture
-[16:47:34:85] - FI_Eleves - Fermeture
-[16:47:34:92] - Fermeture
+[17:05:11:81] - Ouverture
+[17:05:11:91] - FEN_Authentification - Ouverture
+[17:05:11:96] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[17:05:11:97] - MConfiguration - RecupereConf() : récupération réussit
+[17:05:13:31] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[17:05:13:49] - MFiltre_Eleve - init() : Initialisation réussit
+[17:05:13:49] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[17:05:13:50] - MFiltre_Impression - init() : Initialisation réussit
+[17:05:13:51] - FEN_MAIN - Ouverture de FI_Eleves
+[17:05:13:58] - FI_Eleves - Ouverture
+[17:05:13:58] - MEleve - ListeEleves() : on liste les élèves
+[17:05:13:85] - MEleve - ListeEleves() : on a listé <7> élèves
+[17:05:14:85] - FEN_MAIN - Ouverture de FI_Comptabilite
+[17:05:14:86] - FI_Eleves - Fermeture
+[17:05:14:90] - FI_Comptabilite - Ouverture
+[17:05:14:90] - MFacture - ListeFacture() : on liste les factures
+[17:05:14:90] - MFacture - ListeFacture() : on a listé <12> factures
+[17:05:14:90] - MCompte - ListeCompte() : on liste les factures
+[17:05:14:90] - MCompte - ListeCompte() : on a listé <3> comptes
+[17:05:15:83] - FI_Comptabilite - Fermeture
+[17:05:15:95] - FI_Facture - Ouverture
+[17:05:16:10] - MFacture - ListeFacture() : on liste les factures
+[17:05:16:11] - MFacture - ListeFacture() : on a listé <12> factures
+[17:06:19:41] - Ouverture
+[17:06:19:50] - FEN_Authentification - Ouverture
+[17:06:19:56] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[17:06:19:57] - MConfiguration - RecupereConf() : récupération réussit
+[17:06:20:91] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[17:06:21:08] - MFiltre_Eleve - init() : Initialisation réussit
+[17:06:21:08] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[17:06:21:09] - MFiltre_Impression - init() : Initialisation réussit
+[17:06:21:10] - FEN_MAIN - Ouverture de FI_Eleves
+[17:06:21:15] - FI_Eleves - Ouverture
+[17:06:21:15] - MEleve - ListeEleves() : on liste les élèves
+[17:06:21:42] - MEleve - ListeEleves() : on a listé <7> élèves
+[17:06:22:75] - FEN_MAIN - Ouverture de FI_Comptabilite
+[17:06:22:75] - FI_Eleves - Fermeture
+[17:06:22:82] - FI_Comptabilite - Ouverture
+[17:06:22:82] - MFacture - ListeFacture() : on liste les factures
+[17:06:22:82] - MFacture - ListeFacture() : on a listé <12> factures
+[17:06:22:82] - MCompte - ListeCompte() : on liste les factures
+[17:06:22:83] - MCompte - ListeCompte() : on a listé <3> comptes
+[17:06:24:09] - FI_Comptabilite - Ajout d'une facture
+[17:06:24:36] - FEN_AjouterFacture - Ouverture
+[17:06:33:93] - FEN_AjouterFacture - Fermeture
+[17:06:34:69] - FI_Comptabilite - Fermeture
+[17:06:34:80] - FI_Facture - Ouverture
+[17:06:34:94] - MFacture - ListeFacture() : on liste les factures
+[17:06:34:94] - MFacture - ListeFacture() : on a listé <12> factures
+[17:07:27:01] - FI_Facture - BTN_Imprimer
+[17:09:06:63] - Ouverture
+[17:09:06:72] - FEN_Authentification - Ouverture
+[17:09:06:78] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[17:09:06:80] - MConfiguration - RecupereConf() : récupération réussit
+[17:09:08:16] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[17:09:08:33] - MFiltre_Eleve - init() : Initialisation réussit
+[17:09:08:33] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[17:09:08:35] - MFiltre_Impression - init() : Initialisation réussit
+[17:09:08:35] - FEN_MAIN - Ouverture de FI_Eleves
+[17:09:08:42] - FI_Eleves - Ouverture
+[17:09:08:42] - MEleve - ListeEleves() : on liste les élèves
+[17:09:08:69] - MEleve - ListeEleves() : on a listé <7> élèves
+[17:09:09:74] - FEN_MAIN - Ouverture de FI_Comptabilite
+[17:09:09:74] - FI_Eleves - Fermeture
+[17:09:09:78] - FI_Comptabilite - Ouverture
+[17:09:09:78] - MFacture - ListeFacture() : on liste les factures
+[17:09:09:78] - MFacture - ListeFacture() : on a listé <12> factures
+[17:09:09:78] - MCompte - ListeCompte() : on liste les factures
+[17:09:09:79] - MCompte - ListeCompte() : on a listé <3> comptes
+[17:09:10:99] - FI_Comptabilite - Fermeture
+[17:09:11:10] - FI_Facture - Ouverture
+[17:09:11:24] - MFacture - ListeFacture() : on liste les factures
+[17:09:11:25] - MFacture - ListeFacture() : on a listé <12> factures
+[17:09:29:31] - FI_Facture - BTN_Imprimer
+[17:09:48:54] - FI_Facture - Fermeture
+[17:09:48:78] - FI_Eleves - Fermeture
+[17:09:48:88] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[17:09:48:88] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[17:09:48:88] - Fermeture
 
 
-[19:10:25:48] - Ouverture
-[19:10:25:57] - FEN_Authentification - Ouverture
-[19:10:25:63] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:10:25:64] - MConfiguration - RecupereConf() : récupération réussit
-[19:10:26:99] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:10:27:18] - MFiltre_Eleve - init() : Initialisation réussit
-[19:10:27:19] - FEN_MAIN - Ouverture de FI_Eleves
-[19:10:27:28] - FI_Eleves - Ouverture
-[19:10:27:28] - MEleve - ListeEleves() : on liste les élèves
-[19:10:27:57] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:10:29:32] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:10:29:32] - FI_Eleves - Fermeture
-[19:10:29:38] - FI_Comptabilite - Ouverture
-[19:10:29:38] - MFacture - ListeFacture() : on liste les factures
-[19:10:29:38] - MFacture - ListeFacture() : on a listé <15> factures
-[19:10:29:38] - MCompte - ListeCompte() : on liste les factures
-[19:10:29:38] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:10:30:33] - FI_Comptabilite - Fermeture
-[19:10:30:48] - FI_Facture - Ouverture
-[19:10:30:63] - MFacture - ListeFacture() : on liste les factures
-[19:10:30:64] - MFacture - ListeFacture() : on a listé <15> factures
-[19:11:12:34] - Ouverture
-[19:11:12:43] - FEN_Authentification - Ouverture
-[19:11:12:48] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:11:12:52] - MConfiguration - RecupereConf() : récupération réussit
-[19:11:13:87] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:11:14:06] - MFiltre_Eleve - init() : Initialisation réussit
-[19:11:14:06] - FEN_MAIN - Ouverture de FI_Eleves
-[19:11:14:13] - FI_Eleves - Ouverture
-[19:11:14:13] - MEleve - ListeEleves() : on liste les élèves
-[19:11:14:42] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:11:24:81] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:11:24:81] - FI_Eleves - Fermeture
-[19:11:24:87] - FI_Comptabilite - Ouverture
-[19:11:24:87] - MFacture - ListeFacture() : on liste les factures
-[19:11:24:87] - MFacture - ListeFacture() : on a listé <15> factures
-[19:11:24:87] - MCompte - ListeCompte() : on liste les factures
-[19:11:24:87] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:11:25:84] - FI_Comptabilite - Fermeture
-[19:11:25:97] - FI_Facture - Ouverture
-[19:11:26:13] - MFacture - ListeFacture() : on liste les factures
-[19:11:26:14] - MFacture - ListeFacture() : on a listé <15> factures
-[19:11:37:50] - FI_Facture - Fermeture
-[19:11:37:57] - FI_Comptabilite - Ouverture
-[19:11:37:58] - MFacture - ListeFacture() : on liste les factures
-[19:11:37:58] - MFacture - ListeFacture() : on a listé <15> factures
-[19:11:37:58] - MCompte - ListeCompte() : on liste les factures
-[19:11:37:60] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:11:56:76] - FEN_MAIN - Ouverture de FI_Eleves
-[19:11:56:76] - FI_Comptabilite - Fermeture
-[19:11:56:93] - FI_Eleves - Ouverture
-[19:11:56:94] - MEleve - ListeEleves() : on liste les élèves
-[19:11:56:95] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:11:58:31] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:11:58:31] - FI_Eleves - Fermeture
-[19:11:58:36] - FI_Comptabilite - Ouverture
-[19:11:58:36] - MFacture - ListeFacture() : on liste les factures
-[19:11:58:36] - MFacture - ListeFacture() : on a listé <15> factures
-[19:11:58:36] - MCompte - ListeCompte() : on liste les factures
-[19:11:58:36] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:11:59:02] - FI_Comptabilite - Fermeture
-[19:11:59:13] - FI_Facture - Ouverture
-[19:11:59:27] - MFacture - ListeFacture() : on liste les factures
-[19:11:59:28] - MFacture - ListeFacture() : on a listé <15> factures
-[19:12:59:02] - Ouverture
-[19:12:59:12] - FEN_Authentification - Ouverture
-[19:12:59:18] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:12:59:19] - MConfiguration - RecupereConf() : récupération réussit
-[19:13:00:53] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:13:00:73] - MFiltre_Eleve - init() : Initialisation réussit
-[19:13:00:73] - FEN_MAIN - Ouverture de FI_Eleves
-[19:13:00:79] - FI_Eleves - Ouverture
-[19:13:00:79] - MEleve - ListeEleves() : on liste les élèves
-[19:13:01:07] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:13:02:24] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:13:02:24] - FI_Eleves - Fermeture
-[19:13:02:29] - FI_Comptabilite - Ouverture
-[19:13:02:29] - MFacture - ListeFacture() : on liste les factures
-[19:13:02:30] - MFacture - ListeFacture() : on a listé <15> factures
-[19:13:02:30] - MCompte - ListeCompte() : on liste les factures
-[19:13:02:32] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:13:03:28] - FI_Comptabilite - Fermeture
-[19:13:03:39] - FI_Facture - Ouverture
-[19:13:03:54] - MFacture - ListeFacture() : on liste les factures
-[19:13:03:55] - MFacture - ListeFacture() : on a listé <15> factures
-[19:14:20:48] - FEN_MAIN - Ouverture de FI_Configuration
-[19:14:20:48] - FI_Facture - Fermeture
-[19:14:20:58] - FI_Configuration - Ouverture
-[19:14:20:81] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:14:20:84] - MConfiguration - RecupereConf() : récupération réussit
-[19:14:43:57] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:14:43:57] - FI_Configuration - Fermeture
-[19:14:43:63] - FI_Comptabilite - Ouverture
-[19:14:43:63] - MFacture - ListeFacture() : on liste les factures
-[19:14:43:63] - MFacture - ListeFacture() : on a listé <15> factures
-[19:14:43:63] - MCompte - ListeCompte() : on liste les factures
-[19:14:43:65] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:14:44:60] - FI_Comptabilite - Fermeture
-[19:14:44:71] - FI_Facture - Ouverture
-[19:14:44:85] - MFacture - ListeFacture() : on liste les factures
-[19:14:44:85] - MFacture - ListeFacture() : on a listé <15> factures
-[19:15:18:83] - FI_Facture - Fermeture
-[19:15:19:06] - FI_Eleves - Fermeture
-[19:15:19:15] - Fermeture
+[17:11:50:02] - Ouverture
+[17:11:50:26] - FEN_Authentification - Ouverture
+[17:11:50:33] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[17:11:50:34] - MConfiguration - RecupereConf() : récupération réussit
+[17:11:51:77] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[17:11:51:95] - MFiltre_Eleve - init() : Initialisation réussit
+[17:11:51:95] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[17:11:51:95] - MFiltre_Impression - init() : Initialisation réussit
+[17:11:51:96] - FEN_MAIN - Ouverture de FI_Eleves
+[17:11:52:04] - FI_Eleves - Ouverture
+[17:11:52:04] - MEleve - ListeEleves() : on liste les élèves
+[17:11:52:30] - MEleve - ListeEleves() : on a listé <7> élèves
+[17:11:54:03] - FEN_MAIN - Ouverture de FI_Comptabilite
+[17:11:54:03] - FI_Eleves - Fermeture
+[17:11:54:08] - FI_Comptabilite - Ouverture
+[17:11:54:08] - MFacture - ListeFacture() : on liste les factures
+[17:11:54:08] - MFacture - ListeFacture() : on a listé <12> factures
+[17:11:54:08] - MCompte - ListeCompte() : on liste les factures
+[17:11:54:10] - MCompte - ListeCompte() : on a listé <3> comptes
+[17:11:55:55] - FI_Comptabilite - Fermeture
+[17:11:55:70] - FI_Facture - Ouverture
+[17:11:55:84] - MFacture - ListeFacture() : on liste les factures
+[17:11:55:85] - MFacture - ListeFacture() : on a listé <12> factures
+[17:12:07:50] - FI_Facture - BTN_Imprimer
+[17:13:00:57] - FI_Facture - BTN_Imprimer
+[17:13:12:11] - FI_Facture - Fermeture
+[17:13:12:49] - FI_Eleves - Fermeture
+[17:13:12:62] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[17:13:12:62] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[17:13:12:62] - Fermeture
 
 
-[19:16:17:87] - Ouverture
-[19:16:17:96] - FEN_Authentification - Ouverture
-[19:16:18:00] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:16:18:02] - MConfiguration - RecupereConf() : récupération réussit
-[19:16:19:35] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:16:19:56] - MFiltre_Eleve - init() : Initialisation réussit
-[19:16:19:56] - FEN_MAIN - Ouverture de FI_Eleves
-[19:16:19:62] - FI_Eleves - Ouverture
-[19:16:19:62] - MEleve - ListeEleves() : on liste les élèves
-[19:16:19:90] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:16:21:07] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:16:21:07] - FI_Eleves - Fermeture
-[19:16:21:12] - FI_Comptabilite - Ouverture
-[19:16:21:12] - MFacture - ListeFacture() : on liste les factures
-[19:16:21:13] - MFacture - ListeFacture() : on a listé <15> factures
-[19:16:21:13] - MCompte - ListeCompte() : on liste les factures
-[19:16:21:13] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:16:25:00] - FI_Comptabilite - Fermeture
-[19:16:25:11] - FI_Facture - Ouverture
-[19:16:25:26] - MFacture - ListeFacture() : on liste les factures
-[19:16:25:26] - MFacture - ListeFacture() : on a listé <15> factures
-[19:16:45:43] - FI_Facture - Fermeture
-[19:16:45:51] - FI_Comptabilite - Ouverture
-[19:16:45:51] - MFacture - ListeFacture() : on liste les factures
-[19:16:45:52] - MFacture - ListeFacture() : on a listé <15> factures
-[19:16:45:52] - MCompte - ListeCompte() : on liste les factures
-[19:16:45:54] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:16:48:02] - FI_Comptabilite - Fermeture
-[19:16:48:13] - FI_Facture - Ouverture
-[19:16:48:27] - MFacture - ListeFacture() : on liste les factures
-[19:16:48:28] - MFacture - ListeFacture() : on a listé <15> factures
-[19:16:57:96] - FI_Facture - Fermeture
-[19:16:58:04] - FI_Comptabilite - Ouverture
-[19:16:58:04] - MFacture - ListeFacture() : on liste les factures
-[19:16:58:04] - MFacture - ListeFacture() : on a listé <15> factures
-[19:16:58:04] - MCompte - ListeCompte() : on liste les factures
-[19:16:58:04] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:17:04:86] - FI_Comptabilite - Fermeture
-[19:17:04:96] - FI_Facture - Ouverture
-[19:17:05:10] - MFacture - ListeFacture() : on liste les factures
-[19:17:05:11] - MFacture - ListeFacture() : on a listé <15> factures
-[19:17:07:09] - FI_Facture - Fermeture
-[19:17:07:16] - FI_Comptabilite - Ouverture
-[19:17:07:17] - MFacture - ListeFacture() : on liste les factures
-[19:17:07:17] - MFacture - ListeFacture() : on a listé <15> factures
-[19:17:07:17] - MCompte - ListeCompte() : on liste les factures
-[19:17:07:17] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:17:13:09] - FI_Comptabilite - Fermeture
-[19:17:13:19] - FI_Facture - Ouverture
-[19:17:13:33] - MFacture - ListeFacture() : on liste les factures
-[19:17:13:33] - MFacture - ListeFacture() : on a listé <15> factures
-[19:17:14:85] - FI_Facture - Fermeture
-[19:17:14:92] - FI_Comptabilite - Ouverture
-[19:17:14:92] - MFacture - ListeFacture() : on liste les factures
-[19:17:14:93] - MFacture - ListeFacture() : on a listé <15> factures
-[19:17:14:93] - MCompte - ListeCompte() : on liste les factures
-[19:17:14:93] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:17:26:40] - FI_Comptabilite - Ajout d'une facture
-[19:17:26:70] - FEN_AjouterFacture - Ouverture
-[19:17:28:39] - FEN_AjouterFacture - Fermeture
-[19:17:34:03] - FI_Comptabilite - Ajout d'une facture
-[19:17:34:32] - FEN_AjouterFacture - Ouverture
-[19:17:37:57] - FEN_AjouterFacture - Fermeture
-[19:17:40:39] - FI_Comptabilite - Fermeture
-[19:17:40:60] - FI_Eleves - Fermeture
-[19:17:40:69] - Fermeture
+[17:48:14:78] - Ouverture
+[17:48:14:88] - FEN_Authentification - Ouverture
+[17:48:14:94] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[17:48:14:96] - MConfiguration - RecupereConf() : récupération réussit
+[17:48:16:23] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[17:48:16:36] - MFiltre_Eleve - init() : Initialisation réussit
+[17:48:16:36] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[17:48:16:36] - MFiltre_Impression - init() : Initialisation réussit
+[17:48:16:37] - FEN_MAIN - Ouverture de FI_Eleves
+[17:48:16:41] - FI_Eleves - Ouverture
+[17:48:16:41] - MEleve - ListeEleves() : on liste les élèves
+[17:48:16:61] - MEleve - ListeEleves() : on a listé <7> élèves
+[17:48:17:67] - FEN_MAIN - Ouverture de FI_Comptabilite
+[17:48:17:67] - FI_Eleves - Fermeture
+[17:48:17:71] - FI_Comptabilite - Ouverture
+[17:48:17:71] - MFacture - ListeFacture() : on liste les factures
+[17:48:17:71] - MFacture - ListeFacture() : on a listé <12> factures
+[17:48:17:71] - MCompte - ListeCompte() : on liste les factures
+[17:48:17:73] - MCompte - ListeCompte() : on a listé <3> comptes
+[17:48:18:60] - FI_Comptabilite - Fermeture
+[17:48:18:70] - FI_Facture - Ouverture
+[17:48:18:81] - MFacture - ListeFacture() : on liste les factures
+[17:48:18:81] - MFacture - ListeFacture() : on a listé <12> factures
+[17:48:24:62] - FI_Facture - BTN_Imprimer
+[17:59:29:47] - Ouverture
+[17:59:29:58] - FEN_Authentification - Ouverture
+[17:59:29:66] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[17:59:29:69] - MConfiguration - RecupereConf() : récupération réussit
+[17:59:30:99] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[17:59:31:13] - MFiltre_Eleve - init() : Initialisation réussit
+[17:59:31:13] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[17:59:31:13] - MFiltre_Impression - init() : Initialisation réussit
+[17:59:31:14] - FEN_MAIN - Ouverture de FI_Eleves
+[17:59:31:18] - FI_Eleves - Ouverture
+[17:59:31:18] - MEleve - ListeEleves() : on liste les élèves
+[17:59:31:38] - MEleve - ListeEleves() : on a listé <7> élèves
+[17:59:33:02] - FEN_MAIN - Ouverture de FI_Comptabilite
+[17:59:33:02] - FI_Eleves - Fermeture
+[17:59:33:05] - FI_Comptabilite - Ouverture
+[17:59:33:05] - MFacture - ListeFacture() : on liste les factures
+[17:59:33:05] - MFacture - ListeFacture() : on a listé <12> factures
+[17:59:33:05] - MCompte - ListeCompte() : on liste les factures
+[17:59:33:05] - MCompte - ListeCompte() : on a listé <3> comptes
+[17:59:34:10] - FI_Comptabilite - Fermeture
+[17:59:34:20] - FI_Facture - Ouverture
+[17:59:34:31] - MFacture - ListeFacture() : on liste les factures
+[17:59:34:32] - MFacture - ListeFacture() : on a listé <12> factures
+[17:59:39:23] - FI_Facture - BTN_Imprimer
+[18:01:06:94] - FI_Facture - BTN_Imprimer
+[18:03:25:65] - Ouverture
+[18:03:25:76] - FEN_Authentification - Ouverture
+[18:03:25:85] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:03:25:87] - MConfiguration - RecupereConf() : récupération réussit
+[18:03:27:18] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:03:27:33] - MFiltre_Eleve - init() : Initialisation réussit
+[18:03:27:33] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:03:27:33] - MFiltre_Impression - init() : Initialisation réussit
+[18:03:27:33] - FEN_MAIN - Ouverture de FI_Eleves
+[18:03:27:37] - FI_Eleves - Ouverture
+[18:03:27:37] - MEleve - ListeEleves() : on liste les élèves
+[18:03:27:58] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:03:30:31] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:03:30:31] - FI_Eleves - Fermeture
+[18:03:30:34] - FI_Comptabilite - Ouverture
+[18:03:30:34] - MFacture - ListeFacture() : on liste les factures
+[18:03:30:35] - MFacture - ListeFacture() : on a listé <12> factures
+[18:03:30:35] - MCompte - ListeCompte() : on liste les factures
+[18:03:30:35] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:03:33:37] - FI_Comptabilite - Fermeture
+[18:03:33:48] - FI_Facture - Ouverture
+[18:03:33:59] - MFacture - ListeFacture() : on liste les factures
+[18:03:33:59] - MFacture - ListeFacture() : on a listé <12> factures
+[18:03:37:99] - FI_Facture - BTN_Imprimer
+[18:05:27:04] - Ouverture
+[18:05:27:17] - FEN_Authentification - Ouverture
+[18:05:27:25] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:05:27:26] - MConfiguration - RecupereConf() : récupération réussit
+[18:05:28:58] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:05:28:72] - MFiltre_Eleve - init() : Initialisation réussit
+[18:05:28:72] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:05:28:73] - MFiltre_Impression - init() : Initialisation réussit
+[18:05:28:73] - FEN_MAIN - Ouverture de FI_Eleves
+[18:05:28:77] - FI_Eleves - Ouverture
+[18:05:28:77] - MEleve - ListeEleves() : on liste les élèves
+[18:05:28:98] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:05:30:28] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:05:30:28] - FI_Eleves - Fermeture
+[18:05:30:32] - FI_Comptabilite - Ouverture
+[18:05:30:32] - MFacture - ListeFacture() : on liste les factures
+[18:05:30:32] - MFacture - ListeFacture() : on a listé <12> factures
+[18:05:30:32] - MCompte - ListeCompte() : on liste les factures
+[18:05:30:32] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:05:31:30] - FI_Comptabilite - Fermeture
+[18:05:31:40] - FI_Facture - Ouverture
+[18:05:31:51] - MFacture - ListeFacture() : on liste les factures
+[18:05:31:51] - MFacture - ListeFacture() : on a listé <12> factures
+[18:05:36:50] - FI_Facture - BTN_Imprimer
+[18:05:50:29] - FI_Facture - Fermeture
+[18:05:50:50] - FI_Eleves - Fermeture
+[18:05:50:61] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[18:05:50:62] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[18:05:50:62] - Fermeture
 
 
-[19:22:26:82] - Ouverture
-[19:22:26:93] - FEN_Authentification - Ouverture
-[19:22:26:98] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:22:27:00] - MConfiguration - RecupereConf() : récupération réussit
-[19:22:28:35] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:22:28:56] - MFiltre_Eleve - init() : Initialisation réussit
-[19:22:28:56] - FEN_MAIN - Ouverture de FI_Eleves
-[19:22:28:64] - FI_Eleves - Ouverture
-[19:22:28:64] - MEleve - ListeEleves() : on liste les élèves
-[19:22:28:93] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:22:29:92] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:22:29:92] - FI_Eleves - Fermeture
-[19:22:29:97] - FI_Comptabilite - Ouverture
-[19:22:29:97] - MFacture - ListeFacture() : on liste les factures
-[19:22:29:97] - MFacture - ListeFacture() : on a listé <15> factures
-[19:22:29:97] - MCompte - ListeCompte() : on liste les factures
-[19:22:29:98] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:22:31:64] - FI_Comptabilite - Fermeture
-[19:22:31:77] - FI_Facture - Ouverture
-[19:22:31:93] - MFacture - ListeFacture() : on liste les factures
-[19:22:31:94] - MFacture - ListeFacture() : on a listé <15> factures
-[19:24:56:22] - FI_Facture - Fermeture
-[19:24:56:30] - FI_Comptabilite - Ouverture
-[19:24:56:30] - MFacture - ListeFacture() : on liste les factures
-[19:24:56:30] - MFacture - ListeFacture() : on a listé <15> factures
-[19:24:56:30] - MCompte - ListeCompte() : on liste les factures
-[19:24:56:30] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:25:21:45] - FEN_MAIN - Ouverture de FI_Eleves
-[19:25:21:45] - FI_Comptabilite - Fermeture
-[19:25:21:63] - FI_Eleves - Ouverture
-[19:25:21:63] - MEleve - ListeEleves() : on liste les élèves
-[19:25:21:65] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:25:22:66] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:25:22:66] - FI_Eleves - Fermeture
-[19:25:22:71] - FI_Comptabilite - Ouverture
-[19:25:22:71] - MFacture - ListeFacture() : on liste les factures
-[19:25:22:71] - MFacture - ListeFacture() : on a listé <15> factures
-[19:25:22:71] - MCompte - ListeCompte() : on liste les factures
-[19:25:22:71] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:25:25:04] - FI_Comptabilite - Fermeture
-[19:25:25:16] - FI_Facture - Ouverture
-[19:25:25:30] - MFacture - ListeFacture() : on liste les factures
-[19:25:25:30] - MFacture - ListeFacture() : on a listé <15> factures
-[19:26:12:70] - FI_Facture - Fermeture
-[19:26:12:95] - FI_Eleves - Fermeture
-[19:26:13:03] - Fermeture
+[18:15:11:52] - Ouverture
+[18:15:11:60] - FEN_Authentification - Ouverture
+[18:15:11:64] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:15:11:67] - MConfiguration - RecupereConf() : récupération réussit
+[18:15:12:92] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:15:13:06] - MFiltre_Eleve - init() : Initialisation réussit
+[18:15:13:06] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:15:13:06] - MFiltre_Impression - init() : Initialisation réussit
+[18:15:13:06] - FEN_MAIN - Ouverture de FI_Eleves
+[18:15:13:10] - FI_Eleves - Ouverture
+[18:15:13:10] - MEleve - ListeEleves() : on liste les élèves
+[18:15:13:29] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:15:14:43] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:15:14:43] - FI_Eleves - Fermeture
+[18:15:14:46] - FI_Comptabilite - Ouverture
+[18:15:14:46] - MFacture - ListeFacture() : on liste les factures
+[18:15:14:46] - MFacture - ListeFacture() : on a listé <12> factures
+[18:15:14:46] - MCompte - ListeCompte() : on liste les factures
+[18:15:14:46] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:15:15:36] - FI_Comptabilite - Fermeture
+[18:15:15:44] - FI_Facture - Ouverture
+[18:15:15:55] - MFacture - ListeFacture() : on liste les factures
+[18:15:15:55] - MFacture - ListeFacture() : on a listé <12> factures
+[18:15:35:30] - FI_Facture - BTN_Imprimer
+[18:15:55:18] - FI_Facture - Fermeture
+[18:15:55:35] - FI_Eleves - Fermeture
+[18:15:55:40] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[18:15:55:40] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[18:15:55:40] - Fermeture
 
 
-[19:26:29:10] - Ouverture
-[19:26:29:19] - FEN_Authentification - Ouverture
-[19:26:29:25] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:26:29:27] - MConfiguration - RecupereConf() : récupération réussit
-[19:26:30:60] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:26:30:79] - MFiltre_Eleve - init() : Initialisation réussit
-[19:26:30:79] - FEN_MAIN - Ouverture de FI_Eleves
-[19:26:30:85] - FI_Eleves - Ouverture
-[19:26:30:85] - MEleve - ListeEleves() : on liste les élèves
-[19:26:31:14] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:26:31:86] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:26:31:86] - FI_Eleves - Fermeture
-[19:26:31:91] - FI_Comptabilite - Ouverture
-[19:26:31:91] - MFacture - ListeFacture() : on liste les factures
-[19:26:31:92] - MFacture - ListeFacture() : on a listé <15> factures
-[19:26:31:92] - MCompte - ListeCompte() : on liste les factures
-[19:26:31:94] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:26:33:31] - FI_Comptabilite - Fermeture
-[19:26:33:42] - FI_Facture - Ouverture
-[19:26:33:58] - MFacture - ListeFacture() : on liste les factures
-[19:26:33:59] - MFacture - ListeFacture() : on a listé <15> factures
-[19:26:57:23] - FI_Facture - Fermeture
-[19:26:57:49] - FI_Eleves - Fermeture
-[19:26:57:58] - Fermeture
+[18:19:10:97] - Ouverture
+[18:19:11:05] - FEN_Authentification - Ouverture
+[18:19:11:11] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:19:11:12] - MConfiguration - RecupereConf() : récupération réussit
+[18:19:12:40] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:19:12:54] - MFiltre_Eleve - init() : Initialisation réussit
+[18:19:12:54] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:19:12:54] - MFiltre_Impression - init() : Initialisation réussit
+[18:19:12:55] - FEN_MAIN - Ouverture de FI_Eleves
+[18:19:12:59] - FI_Eleves - Ouverture
+[18:19:12:59] - MEleve - ListeEleves() : on liste les élèves
+[18:19:12:78] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:19:14:08] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:19:14:08] - FI_Eleves - Fermeture
+[18:19:14:12] - FI_Comptabilite - Ouverture
+[18:19:14:12] - MFacture - ListeFacture() : on liste les factures
+[18:19:14:12] - MFacture - ListeFacture() : on a listé <12> factures
+[18:19:14:12] - MCompte - ListeCompte() : on liste les factures
+[18:19:14:14] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:19:17:22] - FI_Comptabilite - Fermeture
+[18:19:17:31] - FI_Facture - Ouverture
+[18:19:17:42] - MFacture - ListeFacture() : on liste les factures
+[18:19:17:42] - MFacture - ListeFacture() : on a listé <12> factures
+[18:19:25:09] - FI_Facture - BTN_Imprimer
+[18:19:39:98] - FI_Facture - BTN_Imprimer
+[18:19:58:51] - FI_Facture - BTN_Imprimer
+[18:20:13:91] - FI_Facture - Fermeture
+[18:20:14:09] - FI_Eleves - Fermeture
+[18:20:14:17] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[18:20:14:17] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[18:20:14:17] - Fermeture
 
 
-[19:29:32:23] - Ouverture
-[19:29:32:58] - FEN_Authentification - Ouverture
-[19:29:32:66] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:29:32:68] - MConfiguration - RecupereConf() : récupération réussit
-[19:29:34:22] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:29:34:46] - MFiltre_Eleve - init() : Initialisation réussit
-[19:29:34:47] - FEN_MAIN - Ouverture de FI_Eleves
-[19:29:34:74] - FI_Eleves - Ouverture
-[19:29:34:74] - MEleve - ListeEleves() : on liste les élèves
-[19:29:35:14] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:29:36:15] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:29:36:15] - FI_Eleves - Fermeture
-[19:29:36:38] - FI_Comptabilite - Ouverture
-[19:29:36:38] - MFacture - ListeFacture() : on liste les factures
-[19:29:36:39] - MFacture - ListeFacture() : on a listé <15> factures
-[19:29:36:39] - MCompte - ListeCompte() : on liste les factures
-[19:29:36:39] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:29:37:77] - FI_Comptabilite - Fermeture
-[19:29:37:89] - FI_Facture - Ouverture
-[19:29:38:05] - MFacture - ListeFacture() : on liste les factures
-[19:29:38:06] - MFacture - ListeFacture() : on a listé <15> factures
-[19:29:42:39] - FI_Facture - Fermeture
-[19:29:42:64] - FI_Eleves - Fermeture
-[19:29:42:72] - Fermeture
+[18:21:08:28] - Ouverture
+[18:21:08:37] - FEN_Authentification - Ouverture
+[18:21:08:42] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:21:08:44] - MConfiguration - RecupereConf() : récupération réussit
+[18:21:09:71] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:21:09:84] - MFiltre_Eleve - init() : Initialisation réussit
+[18:21:09:84] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:21:09:84] - MFiltre_Impression - init() : Initialisation réussit
+[18:21:09:84] - FEN_MAIN - Ouverture de FI_Eleves
+[18:21:09:88] - FI_Eleves - Ouverture
+[18:21:09:88] - MEleve - ListeEleves() : on liste les élèves
+[18:21:10:08] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:21:11:22] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:21:11:23] - FI_Eleves - Fermeture
+[18:21:11:26] - FI_Comptabilite - Ouverture
+[18:21:11:26] - MFacture - ListeFacture() : on liste les factures
+[18:21:11:26] - MFacture - ListeFacture() : on a listé <12> factures
+[18:21:11:26] - MCompte - ListeCompte() : on liste les factures
+[18:21:11:26] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:21:12:52] - FI_Comptabilite - Fermeture
+[18:21:12:61] - FI_Facture - Ouverture
+[18:21:12:71] - MFacture - ListeFacture() : on liste les factures
+[18:21:12:71] - MFacture - ListeFacture() : on a listé <12> factures
+[18:21:19:83] - FI_Facture - BTN_Imprimer
+[18:21:30:64] - FI_Facture - Fermeture
+[18:21:30:82] - FI_Eleves - Fermeture
+[18:21:30:89] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[18:21:30:90] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[18:21:30:90] - Fermeture
 
 
-[19:31:44:01] - Ouverture
-[19:31:44:23] - FEN_Authentification - Ouverture
-[19:31:44:32] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:31:44:33] - MConfiguration - RecupereConf() : récupération réussit
-[19:31:45:88] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:31:46:12] - MFiltre_Eleve - init() : Initialisation réussit
-[19:31:46:12] - FEN_MAIN - Ouverture de FI_Eleves
-[19:31:46:33] - FI_Eleves - Ouverture
-[19:31:46:33] - MEleve - ListeEleves() : on liste les élèves
-[19:31:46:72] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:31:47:89] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:31:47:89] - FI_Eleves - Fermeture
-[19:31:48:12] - FI_Comptabilite - Ouverture
-[19:31:48:12] - MFacture - ListeFacture() : on liste les factures
-[19:31:48:12] - MFacture - ListeFacture() : on a listé <15> factures
-[19:31:48:12] - MCompte - ListeCompte() : on liste les factures
-[19:31:48:13] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:31:49:86] - FI_Comptabilite - Fermeture
-[19:31:50:32] - FI_Facture - Ouverture
-[19:31:50:64] - MFacture - ListeFacture() : on liste les factures
-[19:31:50:64] - MFacture - ListeFacture() : on a listé <15> factures
-[19:32:00:64] - FI_Facture - Fermeture
-[19:32:00:90] - FI_Eleves - Fermeture
-[19:32:00:98] - Fermeture
+[18:27:17:56] - Ouverture
+[18:27:17:64] - FEN_Authentification - Ouverture
+[18:27:17:70] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:27:17:71] - MConfiguration - RecupereConf() : récupération réussit
+[18:27:18:99] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:27:19:12] - MFiltre_Eleve - init() : Initialisation réussit
+[18:27:19:12] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:27:19:12] - MFiltre_Impression - init() : Initialisation réussit
+[18:27:19:13] - FEN_MAIN - Ouverture de FI_Eleves
+[18:27:19:17] - FI_Eleves - Ouverture
+[18:27:19:17] - MEleve - ListeEleves() : on liste les élèves
+[18:27:19:35] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:27:20:24] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:27:20:24] - FI_Eleves - Fermeture
+[18:27:20:27] - FI_Comptabilite - Ouverture
+[18:27:20:27] - MFacture - ListeFacture() : on liste les factures
+[18:27:20:27] - MFacture - ListeFacture() : on a listé <12> factures
+[18:27:20:28] - MCompte - ListeCompte() : on liste les factures
+[18:27:20:28] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:27:21:36] - FI_Comptabilite - Fermeture
+[18:27:21:45] - FI_Facture - Ouverture
+[18:27:21:56] - MFacture - ListeFacture() : on liste les factures
+[18:27:21:56] - MFacture - ListeFacture() : on a listé <12> factures
+[18:28:47:14] - Ouverture
+[18:28:47:23] - FEN_Authentification - Ouverture
+[18:28:47:29] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:28:47:30] - MConfiguration - RecupereConf() : récupération réussit
+[18:28:48:57] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:28:48:69] - MFiltre_Eleve - init() : Initialisation réussit
+[18:28:48:69] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:28:48:69] - MFiltre_Impression - init() : Initialisation réussit
+[18:28:48:70] - FEN_MAIN - Ouverture de FI_Eleves
+[18:28:48:74] - FI_Eleves - Ouverture
+[18:28:48:74] - MEleve - ListeEleves() : on liste les élèves
+[18:28:48:93] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:28:51:40] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:28:51:40] - FI_Eleves - Fermeture
+[18:28:51:43] - FI_Comptabilite - Ouverture
+[18:28:51:43] - MFacture - ListeFacture() : on liste les factures
+[18:28:51:43] - MFacture - ListeFacture() : on a listé <12> factures
+[18:28:51:43] - MCompte - ListeCompte() : on liste les factures
+[18:28:51:45] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:28:52:57] - FI_Comptabilite - Fermeture
+[18:28:52:66] - FI_Facture - Ouverture
+[18:28:52:76] - MFacture - ListeFacture() : on liste les factures
+[18:28:52:77] - MFacture - ListeFacture() : on a listé <12> factures
+[18:29:02:01] - FI_Facture - BTN_Imprimer
+[18:29:37:42] - Ouverture
+[18:29:37:50] - FEN_Authentification - Ouverture
+[18:29:37:56] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:29:37:57] - MConfiguration - RecupereConf() : récupération réussit
+[18:29:38:84] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:29:38:97] - MFiltre_Eleve - init() : Initialisation réussit
+[18:29:38:97] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:29:38:97] - MFiltre_Impression - init() : Initialisation réussit
+[18:29:38:97] - FEN_MAIN - Ouverture de FI_Eleves
+[18:29:39:00] - FI_Eleves - Ouverture
+[18:29:39:01] - MEleve - ListeEleves() : on liste les élèves
+[18:29:39:21] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:29:40:06] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:29:40:06] - FI_Eleves - Fermeture
+[18:29:40:09] - FI_Comptabilite - Ouverture
+[18:29:40:09] - MFacture - ListeFacture() : on liste les factures
+[18:29:40:10] - MFacture - ListeFacture() : on a listé <12> factures
+[18:29:40:10] - MCompte - ListeCompte() : on liste les factures
+[18:29:40:10] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:29:40:85] - FI_Comptabilite - Fermeture
+[18:29:40:93] - FI_Facture - Ouverture
+[18:29:41:03] - MFacture - ListeFacture() : on liste les factures
+[18:29:41:03] - MFacture - ListeFacture() : on a listé <12> factures
+[18:29:47:62] - FI_Facture - BTN_Imprimer
+[18:30:15:70] - FI_Facture - Fermeture
+[18:30:15:88] - FI_Eleves - Fermeture
+[18:31:47:13] - Ouverture
+[18:31:47:22] - FEN_Authentification - Ouverture
+[18:31:47:27] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:31:47:28] - MConfiguration - RecupereConf() : récupération réussit
+[18:31:48:55] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:31:48:68] - MFiltre_Eleve - init() : Initialisation réussit
+[18:31:48:68] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:31:48:68] - MFiltre_Impression - init() : Initialisation réussit
+[18:31:48:68] - FEN_MAIN - Ouverture de FI_Eleves
+[18:31:48:72] - FI_Eleves - Ouverture
+[18:31:48:73] - MEleve - ListeEleves() : on liste les élèves
+[18:31:49:07] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:31:50:08] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:31:50:08] - FI_Eleves - Fermeture
+[18:31:50:11] - FI_Comptabilite - Ouverture
+[18:31:50:11] - MFacture - ListeFacture() : on liste les factures
+[18:31:50:12] - MFacture - ListeFacture() : on a listé <12> factures
+[18:31:50:12] - MCompte - ListeCompte() : on liste les factures
+[18:31:50:12] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:31:50:83] - FI_Comptabilite - Fermeture
+[18:31:50:92] - FI_Facture - Ouverture
+[18:31:51:02] - MFacture - ListeFacture() : on liste les factures
+[18:31:51:02] - MFacture - ListeFacture() : on a listé <12> factures
+[18:31:57:40] - FI_Facture - BTN_Imprimer
+[18:32:10:49] - FI_Facture - BTN_Imprimer
+[18:32:25:22] - FI_Facture - Fermeture
+[18:32:25:40] - FI_Eleves - Fermeture
+[18:32:46:24] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[18:35:08:77] - Ouverture
+[18:35:08:82] - FEN_Authentification - Ouverture
+[18:35:08:85] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:35:08:86] - MConfiguration - RecupereConf() : récupération réussit
+[18:35:10:09] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:35:10:21] - MFiltre_Eleve - init() : Initialisation réussit
+[18:35:10:21] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:35:10:21] - MFiltre_Impression - init() : Initialisation réussit
+[18:35:10:22] - FEN_MAIN - Ouverture de FI_Eleves
+[18:35:10:25] - FI_Eleves - Ouverture
+[18:35:10:26] - MEleve - ListeEleves() : on liste les élèves
+[18:35:10:43] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:35:11:11] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:35:11:11] - FI_Eleves - Fermeture
+[18:35:11:14] - FI_Comptabilite - Ouverture
+[18:35:11:14] - MFacture - ListeFacture() : on liste les factures
+[18:35:11:14] - MFacture - ListeFacture() : on a listé <12> factures
+[18:35:11:14] - MCompte - ListeCompte() : on liste les factures
+[18:35:11:14] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:35:12:99] - FI_Comptabilite - Fermeture
+[18:35:13:07] - FI_Facture - Ouverture
+[18:35:13:17] - MFacture - ListeFacture() : on liste les factures
+[18:35:13:17] - MFacture - ListeFacture() : on a listé <12> factures
+[18:35:33:04] - FI_Facture - BTN_Imprimer
+[18:35:47:88] - FI_Facture - Fermeture
+[18:35:48:02] - FI_Eleves - Fermeture
+[18:35:48:06] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[18:35:48:06] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[18:35:48:06] - Fermeture
 
 
-[19:32:26:28] - Ouverture
-[19:32:26:37] - FEN_Authentification - Ouverture
-[19:32:26:43] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:32:26:44] - MConfiguration - RecupereConf() : récupération réussit
-[19:32:27:78] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:32:27:98] - MFiltre_Eleve - init() : Initialisation réussit
-[19:32:27:98] - FEN_MAIN - Ouverture de FI_Eleves
-[19:32:28:04] - FI_Eleves - Ouverture
-[19:32:28:04] - MEleve - ListeEleves() : on liste les élèves
-[19:32:28:33] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:32:29:06] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:32:29:06] - FI_Eleves - Fermeture
-[19:32:29:12] - FI_Comptabilite - Ouverture
-[19:32:29:12] - MFacture - ListeFacture() : on liste les factures
-[19:32:29:13] - MFacture - ListeFacture() : on a listé <15> factures
-[19:32:29:13] - MCompte - ListeCompte() : on liste les factures
-[19:32:29:13] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:32:30:42] - FI_Comptabilite - Fermeture
-[19:32:30:53] - FI_Facture - Ouverture
-[19:32:30:69] - MFacture - ListeFacture() : on liste les factures
-[19:32:30:69] - MFacture - ListeFacture() : on a listé <15> factures
-[19:32:53:66] - FI_Facture - Fermeture
-[19:32:53:92] - FI_Eleves - Fermeture
-[19:32:53:98] - Fermeture
+[18:37:14:51] - Ouverture
+[18:37:14:56] - FEN_Authentification - Ouverture
+[18:37:14:59] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:37:14:60] - MConfiguration - RecupereConf() : récupération réussit
+[18:37:15:82] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:37:15:94] - MFiltre_Eleve - init() : Initialisation réussit
+[18:37:15:94] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:37:15:94] - MFiltre_Impression - init() : Initialisation réussit
+[18:37:15:95] - FEN_MAIN - Ouverture de FI_Eleves
+[18:37:15:99] - FI_Eleves - Ouverture
+[18:37:15:99] - MEleve - ListeEleves() : on liste les élèves
+[18:37:16:16] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:37:17:09] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:37:17:09] - FI_Eleves - Fermeture
+[18:37:17:12] - FI_Comptabilite - Ouverture
+[18:37:17:12] - MFacture - ListeFacture() : on liste les factures
+[18:37:17:12] - MFacture - ListeFacture() : on a listé <12> factures
+[18:37:17:12] - MCompte - ListeCompte() : on liste les factures
+[18:37:17:14] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:37:18:29] - FI_Comptabilite - Fermeture
+[18:37:18:37] - FI_Facture - Ouverture
+[18:37:18:47] - MFacture - ListeFacture() : on liste les factures
+[18:37:18:47] - MFacture - ListeFacture() : on a listé <12> factures
+[18:37:24:32] - FI_Facture - BTN_Imprimer
+[18:37:49:69] - MFacture - ListeFacture() : on liste les factures
+[18:37:49:70] - MFacture - ListeFacture() : on a listé <0> factures
+[18:37:53:11] - MFacture - ListeFacture() : on liste les factures
+[18:37:53:11] - MFacture - ListeFacture() : on a listé <6> factures
+[18:37:55:97] - MFacture - ListeFacture() : on liste les factures
+[18:37:55:97] - MFacture - ListeFacture() : on a listé <0> factures
+[18:37:58:44] - MFacture - ListeFacture() : on liste les factures
+[18:37:58:44] - MFacture - ListeFacture() : on a listé <6> factures
+[18:37:59:63] - MFacture - ListeFacture() : on liste les factures
+[18:37:59:63] - MFacture - ListeFacture() : on a listé <6> factures
+[18:38:02:05] - MFacture - ListeFacture() : on liste les factures
+[18:38:02:05] - MFacture - ListeFacture() : on a listé <12> factures
+[18:38:05:52] - MFacture - ListeFacture() : on liste les factures
+[18:38:05:52] - MFacture - ListeFacture() : on a listé <12> factures
+[18:38:05:76] - FEN_MAIN - Ouverture de FI_Eleves
+[18:38:05:76] - FI_Facture - Fermeture
+[18:38:05:87] - FI_Eleves - Ouverture
+[18:38:05:87] - MEleve - ListeEleves() : on liste les élèves
+[18:38:05:88] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:38:08:49] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:38:08:49] - FI_Eleves - Fermeture
+[18:38:08:52] - FI_Comptabilite - Ouverture
+[18:38:08:52] - MFacture - ListeFacture() : on liste les factures
+[18:38:08:52] - MFacture - ListeFacture() : on a listé <12> factures
+[18:38:08:52] - MCompte - ListeCompte() : on liste les factures
+[18:38:08:52] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:38:09:78] - FEN_MAIN - Ouverture de FI_Eleves
+[18:38:09:78] - FI_Comptabilite - Fermeture
+[18:38:09:87] - FI_Eleves - Ouverture
+[18:38:09:87] - MEleve - ListeEleves() : on liste les élèves
+[18:38:09:88] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:38:10:82] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:38:10:82] - FI_Eleves - Fermeture
+[18:38:10:84] - FI_Comptabilite - Ouverture
+[18:38:10:84] - MFacture - ListeFacture() : on liste les factures
+[18:38:10:85] - MFacture - ListeFacture() : on a listé <12> factures
+[18:38:10:85] - MCompte - ListeCompte() : on liste les factures
+[18:38:10:85] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:38:11:73] - FI_Comptabilite - Fermeture
+[18:38:11:79] - FI_Facture - Ouverture
+[18:38:11:88] - MFacture - ListeFacture() : on liste les factures
+[18:38:11:88] - MFacture - ListeFacture() : on a listé <12> factures
+[18:38:14:72] - MFacture - ListeFacture() : on liste les factures
+[18:38:14:72] - MFacture - ListeFacture() : on a listé <0> factures
+[18:38:17:08] - MFacture - ListeFacture() : on liste les factures
+[18:38:17:08] - MFacture - ListeFacture() : on a listé <12> factures
+[18:38:56:42] - FI_Facture - Fermeture
+[18:38:56:47] - FI_Comptabilite - Ouverture
+[18:38:56:47] - MFacture - ListeFacture() : on liste les factures
+[18:38:56:47] - MFacture - ListeFacture() : on a listé <12> factures
+[18:38:56:47] - MCompte - ListeCompte() : on liste les factures
+[18:38:56:47] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:39:24:34] - FEN_MAIN - Ouverture de FI_Eleves
+[18:39:24:34] - FI_Comptabilite - Fermeture
+[18:39:24:43] - FI_Eleves - Ouverture
+[18:39:24:43] - MEleve - ListeEleves() : on liste les élèves
+[18:39:24:44] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:39:25:39] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:39:25:39] - FI_Eleves - Fermeture
+[18:39:25:42] - FI_Comptabilite - Ouverture
+[18:39:25:42] - MFacture - ListeFacture() : on liste les factures
+[18:39:25:42] - MFacture - ListeFacture() : on a listé <12> factures
+[18:39:25:42] - MCompte - ListeCompte() : on liste les factures
+[18:39:25:44] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:39:26:12] - FI_Comptabilite - Fermeture
+[18:39:26:18] - FI_Facture - Ouverture
+[18:39:26:26] - MFacture - ListeFacture() : on liste les factures
+[18:39:26:26] - MFacture - ListeFacture() : on a listé <12> factures
+[18:39:29:76] - MFacture - ListeFacture() : on liste les factures
+[18:39:29:76] - MFacture - ListeFacture() : on a listé <3> factures
+[18:40:10:44] - FI_Facture - Fermeture
+[18:40:10:58] - FI_Comptabilite - Ouverture
+[18:40:10:58] - MFacture - ListeFacture() : on liste les factures
+[18:40:10:58] - MFacture - ListeFacture() : on a listé <12> factures
+[18:40:10:58] - MCompte - ListeCompte() : on liste les factures
+[18:40:10:58] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:40:12:68] - FI_Comptabilite - Fermeture
+[18:40:12:74] - FI_Facture - Ouverture
+[18:40:12:82] - MFacture - ListeFacture() : on liste les factures
+[18:40:12:82] - MFacture - ListeFacture() : on a listé <12> factures
+[18:40:19:50] - MFacture - ListeFacture() : on liste les factures
+[18:40:19:50] - MFacture - ListeFacture() : on a listé <0> factures
+[18:40:21:57] - MFacture - ListeFacture() : on liste les factures
+[18:40:21:57] - MFacture - ListeFacture() : on a listé <0> factures
+[18:40:23:03] - FI_Facture - Fermeture
+[18:40:23:17] - FI_Eleves - Fermeture
+[18:40:23:20] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[18:40:23:20] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[18:40:23:20] - Fermeture
 
 
-[19:35:26:41] - Ouverture
-[19:35:26:50] - FEN_Authentification - Ouverture
-[19:35:26:55] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:35:26:56] - MConfiguration - RecupereConf() : récupération réussit
-[19:35:27:94] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:35:28:14] - MFiltre_Eleve - init() : Initialisation réussit
-[19:35:28:14] - FEN_MAIN - Ouverture de FI_Eleves
-[19:35:28:22] - FI_Eleves - Ouverture
-[19:35:28:22] - MEleve - ListeEleves() : on liste les élèves
-[19:35:28:50] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:35:29:59] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:35:29:59] - FI_Eleves - Fermeture
-[19:35:29:64] - FI_Comptabilite - Ouverture
-[19:35:29:64] - MFacture - ListeFacture() : on liste les factures
-[19:35:29:65] - MFacture - ListeFacture() : on a listé <15> factures
-[19:35:29:65] - MCompte - ListeCompte() : on liste les factures
-[19:35:29:65] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:35:32:40] - FI_Comptabilite - Fermeture
-[19:35:32:52] - FI_Facture - Ouverture
-[19:35:32:68] - MFacture - ListeFacture() : on liste les factures
-[19:35:32:68] - MFacture - ListeFacture() : on a listé <15> factures
-[19:35:33:67] - FI_Facture - BTN_Imprimer
-[19:36:55:16] - Ouverture
-[19:36:55:43] - FEN_Authentification - Ouverture
-[19:36:55:51] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:36:55:53] - MConfiguration - RecupereConf() : récupération réussit
-[19:36:56:96] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:36:57:15] - MFiltre_Eleve - init() : Initialisation réussit
-[19:36:57:15] - FEN_MAIN - Ouverture de FI_Eleves
-[19:36:57:23] - FI_Eleves - Ouverture
-[19:36:57:23] - MEleve - ListeEleves() : on liste les élèves
-[19:36:57:51] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:36:58:63] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:36:58:63] - FI_Eleves - Fermeture
-[19:36:58:68] - FI_Comptabilite - Ouverture
-[19:36:58:68] - MFacture - ListeFacture() : on liste les factures
-[19:36:58:69] - MFacture - ListeFacture() : on a listé <15> factures
-[19:36:58:69] - MCompte - ListeCompte() : on liste les factures
-[19:36:58:69] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:37:00:32] - FI_Comptabilite - Fermeture
-[19:37:00:46] - FI_Facture - Ouverture
-[19:37:00:62] - MFacture - ListeFacture() : on liste les factures
-[19:37:00:63] - MFacture - ListeFacture() : on a listé <15> factures
-[19:37:01:43] - FI_Facture - BTN_Imprimer
-[19:37:43:22] - FEN_AjouterFacture - Ouverture
-[19:37:47:07] - FEN_AjouterFacture - Fermeture
-[19:37:47:72] - MFacture - enregistre() : on enregistre la facture <1>
-[19:37:47:72] - MFacture - enregistre() : l'enregistrement de la facture <1> a réussit 
-[19:37:49:55] - FI_Facture - BTN_Imprimer
-[19:38:04:84] - FI_Facture - Fermeture
-[19:38:05:23] - FI_Eleves - Fermeture
-[19:38:05:38] - Fermeture
+[18:40:56:23] - Ouverture
+[18:41:03:40] - Ouverture
+[18:41:03:45] - FEN_Authentification - Ouverture
+[18:41:03:47] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:41:03:49] - MConfiguration - RecupereConf() : récupération réussit
+[18:41:04:71] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:41:04:84] - MFiltre_Eleve - init() : Initialisation réussit
+[18:41:04:84] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:41:04:84] - MFiltre_Impression - init() : Initialisation réussit
+[18:41:04:85] - FEN_MAIN - Ouverture de FI_Eleves
+[18:41:04:88] - FI_Eleves - Ouverture
+[18:41:04:88] - MEleve - ListeEleves() : on liste les élèves
+[18:41:05:05] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:41:05:58] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:41:05:58] - FI_Eleves - Fermeture
+[18:41:05:61] - FI_Comptabilite - Ouverture
+[18:41:05:61] - MFacture - ListeFacture() : on liste les factures
+[18:41:05:61] - MFacture - ListeFacture() : on a listé <12> factures
+[18:41:05:61] - MCompte - ListeCompte() : on liste les factures
+[18:41:05:61] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:41:06:47] - FI_Comptabilite - Fermeture
+[18:41:06:54] - FI_Facture - Ouverture
+[18:41:06:63] - MFacture - ListeFacture() : on liste les factures
+[18:41:06:63] - MFacture - ListeFacture() : on a listé <12> factures
+[18:41:11:08] - MFacture - ListeFacture() : on liste les factures
+[18:41:11:08] - MFacture - ListeFacture() : on a listé <0> factures
+[18:41:12:68] - FI_Facture - Fermeture
+[18:41:12:82] - FI_Eleves - Fermeture
+[18:41:12:85] - Fermeture
 
 
-[19:39:29:48] - Ouverture
-[19:39:29:72] - FEN_Authentification - Ouverture
-[19:39:29:79] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[19:39:29:81] - MConfiguration - RecupereConf() : récupération réussit
-[19:39:31:32] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[19:39:31:55] - MFiltre_Eleve - init() : Initialisation réussit
-[19:39:31:56] - FEN_MAIN - Ouverture de FI_Eleves
-[19:39:31:74] - FI_Eleves - Ouverture
-[19:39:31:74] - MEleve - ListeEleves() : on liste les élèves
-[19:39:32:10] - MEleve - ListeEleves() : on a listé <7> élèves
-[19:39:33:11] - FEN_MAIN - Ouverture de FI_Comptabilite
-[19:39:33:11] - FI_Eleves - Fermeture
-[19:39:33:16] - FI_Comptabilite - Ouverture
-[19:39:33:16] - MFacture - ListeFacture() : on liste les factures
-[19:39:33:16] - MFacture - ListeFacture() : on a listé <15> factures
-[19:39:33:16] - MCompte - ListeCompte() : on liste les factures
-[19:39:33:17] - MCompte - ListeCompte() : on a listé <3> comptes
-[19:39:34:21] - FI_Comptabilite - Fermeture
-[19:39:34:33] - FI_Facture - Ouverture
-[19:39:34:49] - MFacture - ListeFacture() : on liste les factures
-[19:39:34:49] - MFacture - ListeFacture() : on a listé <15> factures
-[19:39:35:45] - FI_Facture - BTN_Imprimer
-[19:39:54:48] - FEN_AjouterFacture - Ouverture
-[19:39:57:64] - FEN_AjouterFacture - Fermeture
-[19:39:58:32] - MFacture - enregistre() : on enregistre la facture <2>
-[19:39:58:32] - MFacture - enregistre() : l'enregistrement de la facture <2> a réussit 
-[19:39:58:84] - FI_Facture - BTN_Imprimer
-[19:40:11:14] - FI_Facture - Fermeture
-[19:40:11:38] - FI_Eleves - Fermeture
-[19:40:11:42] - Fermeture
+[18:41:23:41] - Ouverture
+[18:41:23:52] - FEN_Authentification - Ouverture
+[18:41:23:55] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:41:23:56] - MConfiguration - RecupereConf() : récupération réussit
+[18:41:24:84] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:41:24:98] - MFiltre_Eleve - init() : Initialisation réussit
+[18:41:24:98] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:41:24:98] - MFiltre_Impression - init() : Initialisation réussit
+[18:41:24:98] - FEN_MAIN - Ouverture de FI_Eleves
+[18:41:25:02] - FI_Eleves - Ouverture
+[18:41:25:02] - MEleve - ListeEleves() : on liste les élèves
+[18:41:25:18] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:41:26:19] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:41:26:19] - FI_Eleves - Fermeture
+[18:41:26:22] - FI_Comptabilite - Ouverture
+[18:41:26:22] - MFacture - ListeFacture() : on liste les factures
+[18:41:26:22] - MFacture - ListeFacture() : on a listé <12> factures
+[18:41:26:22] - MCompte - ListeCompte() : on liste les factures
+[18:41:26:23] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:41:27:08] - FI_Comptabilite - Fermeture
+[18:41:27:14] - FI_Facture - Ouverture
+[18:41:27:24] - MFacture - ListeFacture() : on liste les factures
+[18:41:27:24] - MFacture - ListeFacture() : on a listé <12> factures
+[18:41:29:40] - FI_Facture - Fermeture
+[18:41:29:54] - FI_Eleves - Fermeture
+[18:41:29:58] - Fermeture
 
 
-[20:07:10:59] - Ouverture
-[20:07:10:73] - FEN_Authentification - Ouverture
-[20:07:10:77] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:07:10:78] - MConfiguration - RecupereConf() : récupération réussit
-[20:07:12:00] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:07:12:14] - MFiltre_Eleve - init() : Initialisation réussit
-[20:07:12:14] - FEN_MAIN - Ouverture de FI_Eleves
-[20:07:12:19] - FI_Eleves - Ouverture
-[20:07:12:19] - MEleve - ListeEleves() : on liste les élèves
-[20:07:12:37] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:07:13:55] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:07:13:55] - FI_Eleves - Fermeture
-[20:07:13:58] - FI_Comptabilite - Ouverture
-[20:07:13:58] - MFacture - ListeFacture() : on liste les factures
-[20:07:13:58] - MFacture - ListeFacture() : on a listé <15> factures
-[20:07:13:58] - MCompte - ListeCompte() : on liste les factures
-[20:07:13:58] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:07:14:33] - FI_Comptabilite - Fermeture
-[20:07:14:40] - FI_Facture - Ouverture
-[20:07:14:49] - MFacture - ListeFacture() : on liste les factures
-[20:07:14:50] - MFacture - ListeFacture() : on a listé <15> factures
-[20:07:15:65] - FI_Facture - BTN_Imprimer
-[20:07:36:28] - FI_Facture - Fermeture
-[20:07:36:43] - FI_Eleves - Fermeture
-[20:07:36:46] - Fermeture
+[18:41:42:68] - Ouverture
+[18:41:42:79] - FEN_Authentification - Ouverture
+[18:41:42:83] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:41:42:84] - MConfiguration - RecupereConf() : récupération réussit
+[18:41:44:15] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:41:44:31] - MFiltre_Eleve - init() : Initialisation réussit
+[18:41:44:31] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:41:44:31] - MFiltre_Impression - init() : Initialisation réussit
+[18:41:44:31] - FEN_MAIN - Ouverture de FI_Eleves
+[18:41:44:41] - FI_Eleves - Ouverture
+[18:41:44:41] - MEleve - ListeEleves() : on liste les élèves
+[18:41:44:62] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:41:45:40] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:41:45:40] - FI_Eleves - Fermeture
+[18:41:45:50] - FI_Comptabilite - Ouverture
+[18:41:45:51] - MFacture - ListeFacture() : on liste les factures
+[18:41:45:51] - MFacture - ListeFacture() : on a listé <12> factures
+[18:41:45:51] - MCompte - ListeCompte() : on liste les factures
+[18:41:45:51] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:41:46:13] - FI_Comptabilite - Fermeture
+[18:41:46:19] - FI_Facture - Ouverture
+[18:41:46:29] - MFacture - ListeFacture() : on liste les factures
+[18:41:46:29] - MFacture - ListeFacture() : on a listé <12> factures
+[18:41:48:34] - FI_Facture - Fermeture
+[18:41:48:49] - FI_Eleves - Fermeture
+[18:41:48:52] - Fermeture
 
 
-[20:08:21:71] - Ouverture
-[20:08:21:77] - FEN_Authentification - Ouverture
-[20:08:21:79] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:08:21:80] - MConfiguration - RecupereConf() : récupération réussit
-[20:08:23:03] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:08:23:17] - MFiltre_Eleve - init() : Initialisation réussit
-[20:08:23:17] - FEN_MAIN - Ouverture de FI_Eleves
-[20:08:23:21] - FI_Eleves - Ouverture
-[20:08:23:21] - MEleve - ListeEleves() : on liste les élèves
-[20:08:23:40] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:08:24:13] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:08:24:13] - FI_Eleves - Fermeture
-[20:08:24:16] - FI_Comptabilite - Ouverture
-[20:08:24:16] - MFacture - ListeFacture() : on liste les factures
-[20:08:24:16] - MFacture - ListeFacture() : on a listé <15> factures
-[20:08:24:16] - MCompte - ListeCompte() : on liste les factures
-[20:08:24:19] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:08:25:42] - FI_Comptabilite - Fermeture
-[20:08:25:49] - FI_Facture - Ouverture
-[20:08:25:59] - MFacture - ListeFacture() : on liste les factures
-[20:08:25:59] - MFacture - ListeFacture() : on a listé <15> factures
-[20:08:26:81] - FI_Facture - BTN_Imprimer
-[20:08:46:13] - FI_Facture - Fermeture
-[20:08:46:28] - FI_Eleves - Fermeture
-[20:08:46:32] - Fermeture
+[18:41:57:46] - Ouverture
+[18:41:57:56] - FEN_Authentification - Ouverture
+[18:41:57:60] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:41:57:62] - MConfiguration - RecupereConf() : récupération réussit
+[18:41:58:91] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:41:59:05] - MFiltre_Eleve - init() : Initialisation réussit
+[18:41:59:05] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:41:59:05] - MFiltre_Impression - init() : Initialisation réussit
+[18:41:59:06] - FEN_MAIN - Ouverture de FI_Eleves
+[18:41:59:15] - FI_Eleves - Ouverture
+[18:41:59:15] - MEleve - ListeEleves() : on liste les élèves
+[18:41:59:37] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:42:00:06] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:42:00:06] - FI_Eleves - Fermeture
+[18:42:00:12] - FI_Comptabilite - Ouverture
+[18:42:00:12] - MFacture - ListeFacture() : on liste les factures
+[18:42:00:12] - MFacture - ListeFacture() : on a listé <12> factures
+[18:42:00:12] - MCompte - ListeCompte() : on liste les factures
+[18:42:00:12] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:42:00:97] - FI_Comptabilite - Fermeture
+[18:42:01:03] - FI_Facture - Ouverture
+[18:42:01:13] - MFacture - ListeFacture() : on liste les factures
+[18:42:01:13] - MFacture - ListeFacture() : on a listé <12> factures
+[18:42:04:82] - FI_Facture - Fermeture
+[18:42:04:96] - FI_Eleves - Fermeture
+[18:42:04:99] - Fermeture
 
 
-[20:10:47:05] - Ouverture
-[20:10:47:10] - FEN_Authentification - Ouverture
-[20:10:47:14] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:10:47:16] - MConfiguration - RecupereConf() : récupération réussit
-[20:10:48:39] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:10:48:52] - MFiltre_Eleve - init() : Initialisation réussit
-[20:10:48:53] - FEN_MAIN - Ouverture de FI_Eleves
-[20:10:48:57] - FI_Eleves - Ouverture
-[20:10:48:57] - MEleve - ListeEleves() : on liste les élèves
-[20:10:48:75] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:10:50:10] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:10:50:10] - FI_Eleves - Fermeture
-[20:10:50:13] - FI_Comptabilite - Ouverture
-[20:10:50:13] - MFacture - ListeFacture() : on liste les factures
-[20:10:50:13] - MFacture - ListeFacture() : on a listé <15> factures
-[20:10:50:13] - MCompte - ListeCompte() : on liste les factures
-[20:10:50:13] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:10:51:01] - FI_Comptabilite - Fermeture
-[20:10:51:08] - FI_Facture - Ouverture
-[20:10:51:17] - MFacture - ListeFacture() : on liste les factures
-[20:10:51:17] - MFacture - ListeFacture() : on a listé <15> factures
-[20:10:53:60] - FI_Facture - BTN_Imprimer
-[20:11:07:17] - FI_Facture - Fermeture
-[20:11:07:33] - FI_Eleves - Fermeture
-[20:11:07:37] - Fermeture
+[18:42:22:81] - Ouverture
+[18:42:22:94] - FEN_Authentification - Ouverture
+[18:42:22:97] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[18:42:22:98] - MConfiguration - RecupereConf() : récupération réussit
+[18:42:24:29] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[18:42:24:44] - MFiltre_Eleve - init() : Initialisation réussit
+[18:42:24:44] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[18:42:24:44] - MFiltre_Impression - init() : Initialisation réussit
+[18:42:24:45] - FEN_MAIN - Ouverture de FI_Eleves
+[18:42:24:55] - FI_Eleves - Ouverture
+[18:42:24:56] - MEleve - ListeEleves() : on liste les élèves
+[18:42:24:78] - MEleve - ListeEleves() : on a listé <7> élèves
+[18:42:25:35] - FEN_MAIN - Ouverture de FI_Comptabilite
+[18:42:25:35] - FI_Eleves - Fermeture
+[18:42:25:46] - FI_Comptabilite - Ouverture
+[18:42:25:46] - MFacture - ListeFacture() : on liste les factures
+[18:42:25:46] - MFacture - ListeFacture() : on a listé <12> factures
+[18:42:25:46] - MCompte - ListeCompte() : on liste les factures
+[18:42:25:46] - MCompte - ListeCompte() : on a listé <3> comptes
+[18:42:26:44] - FI_Comptabilite - Fermeture
+[18:42:26:65] - FI_Facture - Ouverture
+[18:42:26:81] - MFacture - ListeFacture() : on liste les factures
+[18:42:26:81] - MFacture - ListeFacture() : on a listé <12> factures
+[18:43:43:62] - FI_Facture - Fermeture
+[18:43:43:76] - FI_Eleves - Fermeture
+[18:43:43:80] - Fermeture
 
 
-[20:11:25:33] - Ouverture
-[20:11:25:38] - FEN_Authentification - Ouverture
-[20:11:25:42] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:11:25:45] - MConfiguration - RecupereConf() : récupération réussit
-[20:11:26:70] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:11:26:84] - MFiltre_Eleve - init() : Initialisation réussit
-[20:11:26:84] - FEN_MAIN - Ouverture de FI_Eleves
-[20:11:26:88] - FI_Eleves - Ouverture
-[20:11:26:88] - MEleve - ListeEleves() : on liste les élèves
-[20:11:27:05] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:11:28:03] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:11:28:03] - FI_Eleves - Fermeture
-[20:11:28:06] - FI_Comptabilite - Ouverture
-[20:11:28:06] - MFacture - ListeFacture() : on liste les factures
-[20:11:28:06] - MFacture - ListeFacture() : on a listé <15> factures
-[20:11:28:06] - MCompte - ListeCompte() : on liste les factures
-[20:11:28:06] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:11:28:58] - FI_Comptabilite - Fermeture
-[20:11:28:65] - FI_Facture - Ouverture
-[20:11:28:75] - MFacture - ListeFacture() : on liste les factures
-[20:11:28:75] - MFacture - ListeFacture() : on a listé <15> factures
-[20:11:30:17] - FI_Facture - BTN_Imprimer
-[20:11:49:13] - FI_Facture - Fermeture
-[20:11:49:29] - FI_Eleves - Fermeture
-[20:11:49:33] - Fermeture
+[19:09:20:58] - Ouverture
+[19:09:20:65] - FEN_Authentification - Ouverture
+[19:09:20:70] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:09:20:71] - MConfiguration - RecupereConf() : récupération réussit
+[19:09:22:02] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:09:22:18] - MFiltre_Eleve - init() : Initialisation réussit
+[19:09:22:18] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:09:22:18] - MFiltre_Impression - init() : Initialisation réussit
+[19:09:22:18] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:09:22:22] - MFiltre_Facture - init() : Initialisation réussit
+[19:09:22:23] - FEN_MAIN - Ouverture de FI_Eleves
+[19:09:22:29] - FI_Eleves - Ouverture
+[19:09:22:29] - MEleve - ListeEleves() : on liste les élèves
+[19:09:22:54] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:09:24:82] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:09:24:82] - FI_Eleves - Fermeture
+[19:09:24:87] - FI_Comptabilite - Ouverture
+[19:09:24:87] - MFacture - ListeFacture() : on liste les factures
+[19:09:24:87] - MFacture - ListeFacture() : on a listé <12> factures
+[19:09:24:87] - MCompte - ListeCompte() : on liste les factures
+[19:09:24:87] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:09:27:06] - FI_Comptabilite - Fermeture
+[19:09:27:18] - FI_Facture - Ouverture
+[19:09:27:32] - MFacture - ListeFacture() : on liste les factures
+[19:09:27:33] - MFacture - ListeFacture() : on a listé <12> factures
+[19:09:28:19] - FEN_Filtres - Ouverture
+[19:09:44:78] - FEN_Filtres - Fermeture
+[19:09:44:80] - MFacture - ListeFacture() : on liste les factures
+[19:09:44:80] - MFacture - ListeFacture() : on a listé <12> factures
+[19:09:45:77] - FI_Facture - Fermeture
+[19:09:45:98] - FI_Eleves - Fermeture
+[19:09:46:03] - Fermeture
 
 
-[20:12:28:77] - Ouverture
-[20:12:28:83] - FEN_Authentification - Ouverture
-[20:12:28:86] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:12:28:88] - MConfiguration - RecupereConf() : récupération réussit
-[20:12:30:12] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:12:30:26] - MFiltre_Eleve - init() : Initialisation réussit
-[20:12:30:26] - FEN_MAIN - Ouverture de FI_Eleves
-[20:12:30:30] - FI_Eleves - Ouverture
-[20:12:30:30] - MEleve - ListeEleves() : on liste les élèves
-[20:12:30:48] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:12:32:58] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:12:32:58] - FI_Eleves - Fermeture
-[20:12:32:61] - FI_Comptabilite - Ouverture
-[20:12:32:61] - MFacture - ListeFacture() : on liste les factures
-[20:12:32:61] - MFacture - ListeFacture() : on a listé <15> factures
-[20:12:32:61] - MCompte - ListeCompte() : on liste les factures
-[20:12:32:61] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:12:33:65] - FI_Comptabilite - Fermeture
-[20:12:33:72] - FI_Facture - Ouverture
-[20:12:33:83] - MFacture - ListeFacture() : on liste les factures
-[20:12:33:83] - MFacture - ListeFacture() : on a listé <15> factures
-[20:12:40:59] - FI_Facture - Fermeture
-[20:12:40:74] - FI_Eleves - Fermeture
-[20:12:40:78] - Fermeture
+[19:11:15:84] - Ouverture
+[19:11:15:91] - FEN_Authentification - Ouverture
+[19:11:15:95] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:11:15:97] - MConfiguration - RecupereConf() : récupération réussit
+[19:11:17:28] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:11:17:46] - MFiltre_Eleve - init() : Initialisation réussit
+[19:11:17:46] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:11:17:46] - MFiltre_Impression - init() : Initialisation réussit
+[19:11:17:46] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:11:17:49] - MFiltre_Facture - init() : Initialisation réussit
+[19:11:17:49] - FEN_MAIN - Ouverture de FI_Eleves
+[19:11:17:55] - FI_Eleves - Ouverture
+[19:11:17:55] - MEleve - ListeEleves() : on liste les élèves
+[19:11:17:81] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:11:18:62] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:11:18:62] - FI_Eleves - Fermeture
+[19:11:18:67] - FI_Comptabilite - Ouverture
+[19:11:18:67] - MFacture - ListeFacture() : on liste les factures
+[19:11:18:67] - MFacture - ListeFacture() : on a listé <12> factures
+[19:11:18:67] - MCompte - ListeCompte() : on liste les factures
+[19:11:18:67] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:11:19:25] - FI_Comptabilite - Fermeture
+[19:11:19:37] - FI_Facture - Ouverture
+[19:11:19:52] - MFacture - ListeFacture() : on liste les factures
+[19:11:19:52] - MFacture - ListeFacture() : on a listé <12> factures
+[19:11:20:37] - FEN_Filtres - Ouverture
+[19:11:24:98] - FEN_Filtres - Fermeture
+[19:11:25:14] - MFacture - ListeFacture() : on liste les factures
+[19:11:25:14] - MFacture - ListeFacture() : on a listé <0> factures
+[19:11:27:34] - FEN_Filtres - Ouverture
+[19:11:30:33] - FEN_Filtres - Fermeture
+[19:11:30:48] - MFacture - ListeFacture() : on liste les factures
+[19:11:30:49] - MFacture - ListeFacture() : on a listé <0> factures
+[19:11:55:11] - FEN_Filtres - Ouverture
+[19:11:59:08] - FEN_Filtres - Fermeture
+[19:11:59:23] - MFacture - ListeFacture() : on liste les factures
+[19:13:50:92] - Ouverture
+[19:13:50:99] - FEN_Authentification - Ouverture
+[19:13:51:04] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:13:51:06] - MConfiguration - RecupereConf() : récupération réussit
+[19:13:52:35] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:13:52:53] - MFiltre_Eleve - init() : Initialisation réussit
+[19:13:52:53] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:13:52:53] - MFiltre_Impression - init() : Initialisation réussit
+[19:13:52:53] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:13:52:56] - MFiltre_Facture - init() : Initialisation réussit
+[19:13:52:56] - FEN_MAIN - Ouverture de FI_Eleves
+[19:13:52:61] - FI_Eleves - Ouverture
+[19:13:52:61] - MEleve - ListeEleves() : on liste les élèves
+[19:13:52:86] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:13:54:02] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:13:54:02] - FI_Eleves - Fermeture
+[19:13:54:07] - FI_Comptabilite - Ouverture
+[19:13:54:07] - MFacture - ListeFacture() : on liste les factures
+[19:13:54:07] - MFacture - ListeFacture() : on a listé <12> factures
+[19:13:54:07] - MCompte - ListeCompte() : on liste les factures
+[19:13:54:07] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:13:54:97] - FI_Comptabilite - Fermeture
+[19:13:55:07] - FI_Facture - Ouverture
+[19:13:55:21] - MFacture - ListeFacture() : on liste les factures
+[19:13:55:22] - MFacture - ListeFacture() : on a listé <12> factures
+[19:13:56:00] - FEN_Filtres - Ouverture
+[19:13:58:78] - FEN_Filtres - Fermeture
+[19:13:58:93] - MFacture - ListeFacture() : on liste les factures
+[19:13:58:94] - MFacture - ListeFacture() : on a listé <0> factures
+[19:14:00:20] - FEN_Filtres - Ouverture
+[19:14:02:16] - FEN_Filtres - Fermeture
+[19:14:02:31] - MFacture - ListeFacture() : on liste les factures
+[19:14:02:32] - MFacture - ListeFacture() : on a listé <12> factures
+[19:14:08:86] - FEN_Filtres - Ouverture
+[19:14:12:39] - FEN_Filtres - Fermeture
+[19:14:12:55] - MFacture - ListeFacture() : on liste les factures
+[19:14:12:55] - MFacture - ListeFacture() : on a listé <12> factures
+[19:14:17:55] - FEN_Filtres - Ouverture
+[19:14:19:80] - FEN_Filtres - Fermeture
+[19:14:20:02] - MFacture - ListeFacture() : on liste les factures
+[19:14:20:02] - MFacture - ListeFacture() : on a listé <12> factures
+[19:14:36:20] - FEN_Filtres - Ouverture
+[19:14:39:35] - FEN_Filtres - Fermeture
+[19:14:39:51] - MFacture - ListeFacture() : on liste les factures
+[19:15:01:62] - MFacture - ListeFacture() : on a listé <12> factures
+[19:15:36:40] - FEN_Filtres - Ouverture
+[19:15:40:23] - FEN_Filtres - Fermeture
+[19:15:40:39] - MFacture - ListeFacture() : on liste les factures
+[19:15:46:27] - MFacture - ListeFacture() : on a listé <9> factures
+[19:16:00:81] - FEN_Filtres - Ouverture
+[19:16:11:89] - FEN_Filtres - Fermeture
+[19:16:12:04] - MFacture - ListeFacture() : on liste les factures
+[19:16:12:05] - MFacture - ListeFacture() : on a listé <6> factures
+[19:16:16:92] - FEN_Filtres - Ouverture
+[19:16:20:55] - FEN_Filtres - Fermeture
+[19:16:20:71] - MFacture - ListeFacture() : on liste les factures
+[19:16:20:71] - MFacture - ListeFacture() : on a listé <12> factures
+[19:16:49:36] - FEN_Filtres - Ouverture
+[19:17:00:82] - FEN_Filtres - Fermeture
+[19:17:00:99] - MFacture - ListeFacture() : on liste les factures
+[19:17:00:99] - MFacture - ListeFacture() : on a listé <0> factures
+[19:19:09:37] - Ouverture
+[19:19:09:46] - FEN_Authentification - Ouverture
+[19:19:09:51] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:19:09:53] - MConfiguration - RecupereConf() : récupération réussit
+[19:19:10:85] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:19:11:03] - MFiltre_Eleve - init() : Initialisation réussit
+[19:19:11:03] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:19:11:03] - MFiltre_Impression - init() : Initialisation réussit
+[19:19:11:03] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:19:11:06] - MFiltre_Facture - init() : Initialisation réussit
+[19:19:11:06] - FEN_MAIN - Ouverture de FI_Eleves
+[19:19:11:12] - FI_Eleves - Ouverture
+[19:19:11:13] - MEleve - ListeEleves() : on liste les élèves
+[19:19:11:39] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:19:12:00] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:19:12:00] - FI_Eleves - Fermeture
+[19:19:12:04] - FI_Comptabilite - Ouverture
+[19:19:12:04] - MFacture - ListeFacture() : on liste les factures
+[19:19:12:04] - MFacture - ListeFacture() : on a listé <12> factures
+[19:19:12:04] - MCompte - ListeCompte() : on liste les factures
+[19:19:12:04] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:19:13:00] - FI_Comptabilite - Fermeture
+[19:19:13:11] - FI_Facture - Ouverture
+[19:19:13:25] - MFacture - ListeFacture() : on liste les factures
+[19:19:13:26] - MFacture - ListeFacture() : on a listé <12> factures
+[19:19:14:32] - FEN_Filtres - Ouverture
+[19:19:17:60] - FEN_Filtres - Fermeture
+[19:19:17:76] - MFacture - ListeFacture() : on liste les factures
+[19:19:17:76] - MFacture - ListeFacture() : on a listé <0> factures
+[19:19:36:13] - FEN_Filtres - Ouverture
+[19:19:42:64] - FEN_Filtres - Fermeture
+[19:19:42:80] - MFacture - ListeFacture() : on liste les factures
+[19:21:05:21] - MFacture - ListeFacture() : on a listé <0> factures
+[19:21:10:13] - FEN_Filtres - Ouverture
+[19:21:13:96] - FEN_Filtres - Fermeture
+[19:21:14:12] - MFacture - ListeFacture() : on liste les factures
+[19:21:27:30] - MFacture - ListeFacture() : on a listé <0> factures
+[19:21:32:01] - FEN_Filtres - Ouverture
+[19:21:34:77] - FEN_Filtres - Fermeture
+[19:21:34:92] - MFacture - ListeFacture() : on liste les factures
+[19:21:39:03] - MFacture - ListeFacture() : on a listé <12> factures
+[19:25:51:29] - Ouverture
+[19:25:51:36] - FEN_Authentification - Ouverture
+[19:25:51:41] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:25:51:42] - MConfiguration - RecupereConf() : récupération réussit
+[19:25:52:75] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:25:52:94] - MFiltre_Eleve - init() : Initialisation réussit
+[19:25:52:94] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:25:52:94] - MFiltre_Impression - init() : Initialisation réussit
+[19:25:52:94] - FEN_MAIN - Ouverture de FI_Eleves
+[19:25:53:02] - FI_Eleves - Ouverture
+[19:25:53:02] - MEleve - ListeEleves() : on liste les élèves
+[19:25:53:28] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:25:54:22] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:25:54:22] - FI_Eleves - Fermeture
+[19:25:54:27] - FI_Comptabilite - Ouverture
+[19:25:54:27] - MFacture - ListeFacture() : on liste les factures
+[19:25:54:27] - MFacture - ListeFacture() : on a listé <12> factures
+[19:25:54:27] - MCompte - ListeCompte() : on liste les factures
+[19:25:54:30] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:25:55:35] - FI_Comptabilite - Fermeture
+[19:25:55:46] - FI_Facture - Ouverture
+[19:25:55:61] - MFacture - ListeFacture() : on liste les factures
+[19:25:55:61] - MFacture - ListeFacture() : on a listé <12> factures
+[19:25:57:55] - FEN_Filtres - Ouverture
+[19:26:02:26] - FEN_Filtres - Fermeture
+[19:26:02:27] - MFacture - ListeFacture() : on liste les factures
+[19:26:02:28] - MFacture - ListeFacture() : on a listé <12> factures
+[19:27:07:02] - FEN_Filtres - Ouverture
+[19:27:37:40] - Ouverture
+[19:27:37:48] - FEN_Authentification - Ouverture
+[19:27:37:52] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:27:37:53] - MConfiguration - RecupereConf() : récupération réussit
+[19:27:38:84] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:27:39:02] - MFiltre_Eleve - init() : Initialisation réussit
+[19:27:39:02] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:27:39:02] - MFiltre_Impression - init() : Initialisation réussit
+[19:27:39:02] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:27:39:05] - MFiltre_Facture - init() : Initialisation réussit
+[19:27:39:06] - FEN_MAIN - Ouverture de FI_Eleves
+[19:27:39:10] - FI_Eleves - Ouverture
+[19:27:39:11] - MEleve - ListeEleves() : on liste les élèves
+[19:27:39:37] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:27:40:07] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:27:40:07] - FI_Eleves - Fermeture
+[19:27:40:12] - FI_Comptabilite - Ouverture
+[19:27:40:12] - MFacture - ListeFacture() : on liste les factures
+[19:27:40:12] - MFacture - ListeFacture() : on a listé <12> factures
+[19:27:40:12] - MCompte - ListeCompte() : on liste les factures
+[19:27:40:14] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:27:41:25] - FI_Comptabilite - Fermeture
+[19:27:41:36] - FI_Facture - Ouverture
+[19:27:41:51] - MFacture - ListeFacture() : on liste les factures
+[19:27:41:51] - MFacture - ListeFacture() : on a listé <12> factures
+[19:27:42:26] - FEN_Filtres - Ouverture
+[19:28:09:06] - FEN_Filtres - Fermeture
+[19:28:09:08] - MFacture - ListeFacture() : on liste les factures
+[19:28:09:08] - MFacture - ListeFacture() : on a listé <12> factures
+[19:28:10:46] - FEN_Filtres - Ouverture
+[19:28:17:00] - FEN_Filtres - Fermeture
+[19:28:17:02] - MFacture - ListeFacture() : on liste les factures
+[19:28:17:02] - MFacture - ListeFacture() : on a listé <12> factures
+[19:28:18:27] - FEN_Filtres - Ouverture
+[19:28:21:73] - FEN_Filtres - Fermeture
+[19:28:21:89] - MFacture - ListeFacture() : on liste les factures
+[19:28:21:89] - MFacture - ListeFacture() : on a listé <2> factures
+[19:28:23:64] - FEN_Filtres - Ouverture
+[19:28:29:12] - FEN_Filtres - Fermeture
+[19:28:29:28] - MFacture - ListeFacture() : on liste les factures
+[19:28:29:28] - MFacture - ListeFacture() : on a listé <4> factures
+[19:28:33:40] - FEN_Filtres - Ouverture
+[19:28:38:00] - FEN_Filtres - Fermeture
+[19:28:38:16] - MFacture - ListeFacture() : on liste les factures
+[19:28:38:16] - MFacture - ListeFacture() : on a listé <2> factures
+[19:28:42:44] - FI_Facture - BTN_Imprimer
+[19:29:02:55] - FI_Facture - Fermeture
+[19:29:02:77] - FI_Eleves - Fermeture
+[19:29:02:84] - MFiltre_Eleve - Enregistre() : on enregistre les filtres
+[19:29:02:84] - MFiltre_Eleve - Enregistre() : l'enregistre a réussie
+[19:29:02:84] - MFiltre_Impression - Enregistre() : on enregistre les filtres
+[19:29:02:85] - MFiltre_Impression - Enregistre() : l'enregistre a réussie
+[19:29:02:85] - Fermeture
 
 
-[20:13:09:68] - Ouverture
-[20:13:09:74] - FEN_Authentification - Ouverture
-[20:13:09:77] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:13:09:78] - MConfiguration - RecupereConf() : récupération réussit
-[20:13:11:01] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:13:11:14] - MFiltre_Eleve - init() : Initialisation réussit
-[20:13:11:14] - FEN_MAIN - Ouverture de FI_Eleves
-[20:13:11:17] - FI_Eleves - Ouverture
-[20:13:11:17] - MEleve - ListeEleves() : on liste les élèves
-[20:13:11:35] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:13:12:42] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:13:12:42] - FI_Eleves - Fermeture
-[20:13:12:45] - FI_Comptabilite - Ouverture
-[20:13:12:45] - MFacture - ListeFacture() : on liste les factures
-[20:13:12:45] - MFacture - ListeFacture() : on a listé <15> factures
-[20:13:12:45] - MCompte - ListeCompte() : on liste les factures
-[20:13:12:45] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:13:13:77] - FI_Comptabilite - Fermeture
-[20:13:13:83] - FI_Facture - Ouverture
-[20:13:13:93] - MFacture - ListeFacture() : on liste les factures
-[20:13:13:93] - MFacture - ListeFacture() : on a listé <15> factures
-[20:14:51:70] - Ouverture
-[20:14:51:77] - FEN_Authentification - Ouverture
-[20:14:51:80] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:14:51:80] - MConfiguration - RecupereConf() : récupération réussit
-[20:14:53:04] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:14:53:17] - MFiltre_Eleve - init() : Initialisation réussit
-[20:14:53:17] - FEN_MAIN - Ouverture de FI_Eleves
-[20:14:53:20] - FI_Eleves - Ouverture
-[20:14:53:20] - MEleve - ListeEleves() : on liste les élèves
-[20:14:53:39] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:14:56:97] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:14:56:97] - FI_Eleves - Fermeture
-[20:14:57:00] - FI_Comptabilite - Ouverture
-[20:14:57:00] - MFacture - ListeFacture() : on liste les factures
-[20:14:57:00] - MFacture - ListeFacture() : on a listé <15> factures
-[20:14:57:00] - MCompte - ListeCompte() : on liste les factures
-[20:14:57:00] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:14:58:34] - FI_Comptabilite - Fermeture
-[20:14:58:41] - FI_Facture - Ouverture
-[20:14:58:51] - MFacture - ListeFacture() : on liste les factures
-[20:14:58:51] - MFacture - ListeFacture() : on a listé <15> factures
-[20:15:01:22] - FI_Facture - BTN_Ajouter_une_facture
-[20:15:01:40] - FEN_AjouterFacture - Ouverture
-[20:15:02:71] - FEN_AjouterFacture - Fermeture
-[20:15:19:51] - FI_Facture - Fermeture
-[20:15:19:67] - FI_Eleves - Fermeture
-[20:15:19:70] - Fermeture
+[19:31:45:97] - Ouverture
+[19:31:46:06] - FEN_Authentification - Ouverture
+[19:31:46:11] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:31:46:12] - MConfiguration - RecupereConf() : récupération réussit
+[19:31:47:46] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:31:47:63] - MFiltre_Eleve - init() : Initialisation réussit
+[19:31:47:63] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:31:47:63] - MFiltre_Impression - init() : Initialisation réussit
+[19:31:47:63] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:31:47:66] - MFiltre_Facture - init() : Initialisation réussit
+[19:31:47:67] - FEN_MAIN - Ouverture de FI_Eleves
+[19:31:47:74] - FI_Eleves - Ouverture
+[19:31:47:74] - MEleve - ListeEleves() : on liste les élèves
+[19:31:48:00] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:31:52:57] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:31:52:57] - FI_Eleves - Fermeture
+[19:31:52:62] - FI_Comptabilite - Ouverture
+[19:31:52:62] - MFacture - ListeFacture() : on liste les factures
+[19:31:52:62] - MFacture - ListeFacture() : on a listé <12> factures
+[19:31:52:62] - MCompte - ListeCompte() : on liste les factures
+[19:31:52:62] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:31:53:26] - FI_Comptabilite - Fermeture
+[19:31:53:38] - FI_Facture - Ouverture
+[19:31:53:53] - MFacture - ListeFacture() : on liste les factures
+[19:31:53:53] - MFacture - ListeFacture() : on a listé <12> factures
+[19:31:55:80] - FEN_Filtres - Ouverture
+[19:31:59:37] - FEN_Filtres - Fermeture
+[19:31:59:53] - MFacture - ListeFacture() : on liste les factures
+[19:31:59:53] - MFacture - ListeFacture() : on a listé <2> factures
+[19:32:00:68] - FEN_Filtres - Ouverture
+[19:32:05:87] - FEN_Filtres - Fermeture
+[19:32:06:11] - MFacture - ListeFacture() : on liste les factures
+[19:32:06:12] - MFacture - ListeFacture() : on a listé <2> factures
+[19:32:18:31] - FEN_Filtres - Ouverture
+[19:32:59:09] - Ouverture
+[19:32:59:17] - FEN_Authentification - Ouverture
+[19:32:59:21] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:32:59:23] - MConfiguration - RecupereConf() : récupération réussit
+[19:33:00:54] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:33:00:73] - MFiltre_Eleve - init() : Initialisation réussit
+[19:33:00:73] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:33:00:73] - MFiltre_Impression - init() : Initialisation réussit
+[19:33:00:73] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:33:00:77] - MFiltre_Facture - init() : Initialisation réussit
+[19:33:00:77] - FEN_MAIN - Ouverture de FI_Eleves
+[19:33:00:82] - FI_Eleves - Ouverture
+[19:33:00:82] - MEleve - ListeEleves() : on liste les élèves
+[19:33:01:09] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:33:03:46] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:33:03:46] - FI_Eleves - Fermeture
+[19:33:03:51] - FI_Comptabilite - Ouverture
+[19:33:03:51] - MFacture - ListeFacture() : on liste les factures
+[19:33:03:52] - MFacture - ListeFacture() : on a listé <12> factures
+[19:33:03:52] - MCompte - ListeCompte() : on liste les factures
+[19:33:03:52] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:33:05:51] - FI_Comptabilite - Fermeture
+[19:33:05:61] - FI_Facture - Ouverture
+[19:33:05:77] - MFacture - ListeFacture() : on liste les factures
+[19:33:05:77] - MFacture - ListeFacture() : on a listé <12> factures
+[19:33:07:04] - FEN_Filtres - Ouverture
+[19:33:15:65] - FEN_Filtres - Fermeture
+[19:33:15:81] - MFacture - ListeFacture() : on liste les factures
+[19:33:15:82] - MFacture - ListeFacture() : on a listé <2> factures
+[19:33:17:18] - FEN_Filtres - Ouverture
+[19:33:20:86] - FEN_Filtres - Fermeture
+[19:33:21:12] - MFacture - ListeFacture() : on liste les factures
+[19:33:21:12] - MFacture - ListeFacture() : on a listé <2> factures
+[19:33:26:15] - FEN_Filtres - Ouverture
+[19:35:03:36] - Ouverture
+[19:35:03:45] - FEN_Authentification - Ouverture
+[19:35:03:51] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:35:03:52] - MConfiguration - RecupereConf() : récupération réussit
+[19:35:04:86] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:35:05:05] - MFiltre_Eleve - init() : Initialisation réussit
+[19:35:05:05] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:35:05:05] - MFiltre_Impression - init() : Initialisation réussit
+[19:35:05:05] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:35:05:08] - MFiltre_Facture - init() : Initialisation réussit
+[19:35:05:08] - FEN_MAIN - Ouverture de FI_Eleves
+[19:35:05:14] - FI_Eleves - Ouverture
+[19:35:05:14] - MEleve - ListeEleves() : on liste les élèves
+[19:35:05:40] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:35:06:33] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:35:06:33] - FI_Eleves - Fermeture
+[19:35:06:38] - FI_Comptabilite - Ouverture
+[19:35:06:38] - MFacture - ListeFacture() : on liste les factures
+[19:35:06:38] - MFacture - ListeFacture() : on a listé <12> factures
+[19:35:06:38] - MCompte - ListeCompte() : on liste les factures
+[19:35:06:38] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:35:07:31] - FI_Comptabilite - Fermeture
+[19:35:07:42] - FI_Facture - Ouverture
+[19:35:07:57] - MFacture - ListeFacture() : on liste les factures
+[19:35:07:58] - MFacture - ListeFacture() : on a listé <12> factures
+[19:35:08:23] - FEN_Filtres - Ouverture
+[19:35:10:92] - FEN_Filtres - Fermeture
+[19:35:11:08] - MFacture - ListeFacture() : on liste les factures
+[19:35:11:08] - MFacture - ListeFacture() : on a listé <2> factures
+[19:35:12:06] - FEN_Filtres - Ouverture
+[19:35:14:17] - FEN_Filtres - Fermeture
+[19:35:14:41] - MFacture - ListeFacture() : on liste les factures
+[19:35:14:42] - MFacture - ListeFacture() : on a listé <2> factures
+[19:35:20:42] - FEN_Filtres - Ouverture
+[19:36:51:88] - Ouverture
+[19:36:51:96] - FEN_Authentification - Ouverture
+[19:36:52:01] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:36:52:03] - MConfiguration - RecupereConf() : récupération réussit
+[19:36:53:36] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:36:53:52] - MFiltre_Eleve - init() : Initialisation réussit
+[19:36:53:52] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:36:53:52] - MFiltre_Impression - init() : Initialisation réussit
+[19:36:53:52] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:36:53:55] - MFiltre_Facture - init() : Initialisation réussit
+[19:36:53:55] - FEN_MAIN - Ouverture de FI_Eleves
+[19:36:53:61] - FI_Eleves - Ouverture
+[19:36:53:61] - MEleve - ListeEleves() : on liste les élèves
+[19:36:53:88] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:36:55:17] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:36:55:17] - FI_Eleves - Fermeture
+[19:36:55:21] - FI_Comptabilite - Ouverture
+[19:36:55:21] - MFacture - ListeFacture() : on liste les factures
+[19:36:55:22] - MFacture - ListeFacture() : on a listé <12> factures
+[19:36:55:22] - MCompte - ListeCompte() : on liste les factures
+[19:36:55:24] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:36:56:39] - FI_Comptabilite - Fermeture
+[19:36:56:49] - FI_Facture - Ouverture
+[19:36:56:64] - MFacture - ListeFacture() : on liste les factures
+[19:36:56:65] - MFacture - ListeFacture() : on a listé <12> factures
+[19:36:57:30] - FEN_Filtres - Ouverture
+[19:37:00:63] - FEN_Filtres - Fermeture
+[19:37:00:80] - MFacture - ListeFacture() : on liste les factures
+[19:37:00:80] - MFacture - ListeFacture() : on a listé <2> factures
+[19:37:01:64] - FEN_Filtres - Ouverture
+[19:37:05:96] - FEN_Filtres - Fermeture
+[19:37:06:12] - MFacture - ListeFacture() : on liste les factures
+[19:37:06:13] - MFacture - ListeFacture() : on a listé <4> factures
+[19:37:08:33] - FEN_Filtres - Ouverture
+[19:37:22:38] - FEN_Filtres - Fermeture
+[19:37:22:40] - MFacture - ListeFacture() : on liste les factures
+[19:37:22:40] - MFacture - ListeFacture() : on a listé <4> factures
+[19:37:23:00] - FI_Facture - Fermeture
+[19:37:23:22] - FI_Eleves - Fermeture
+[19:37:23:31] - MFiltre_Eleve - Enregistre() : on enregistre les filtres
+[19:37:23:31] - MFiltre_Eleve - Enregistre() : l'enregistre a réussie
+[19:37:23:31] - Fermeture
 
 
-[20:15:33:55] - Ouverture
-[20:15:33:62] - FEN_Authentification - Ouverture
-[20:15:33:66] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:15:33:67] - MConfiguration - RecupereConf() : récupération réussit
-[20:15:34:91] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:15:35:04] - MFiltre_Eleve - init() : Initialisation réussit
-[20:15:35:04] - FEN_MAIN - Ouverture de FI_Eleves
-[20:15:35:07] - FI_Eleves - Ouverture
-[20:15:35:07] - MEleve - ListeEleves() : on liste les élèves
-[20:15:35:26] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:15:36:30] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:15:36:30] - FI_Eleves - Fermeture
-[20:15:36:33] - FI_Comptabilite - Ouverture
-[20:15:36:33] - MFacture - ListeFacture() : on liste les factures
-[20:15:36:34] - MFacture - ListeFacture() : on a listé <15> factures
-[20:15:36:34] - MCompte - ListeCompte() : on liste les factures
-[20:15:36:34] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:15:37:35] - FI_Comptabilite - Fermeture
-[20:15:37:42] - FI_Facture - Ouverture
-[20:15:37:51] - MFacture - ListeFacture() : on liste les factures
-[20:15:37:51] - MFacture - ListeFacture() : on a listé <15> factures
-[20:15:46:14] - FI_Facture - Fermeture
-[20:15:46:30] - FI_Eleves - Fermeture
-[20:15:46:35] - Fermeture
-
-
-[20:16:00:35] - Ouverture
-[20:16:00:40] - FEN_Authentification - Ouverture
-[20:16:00:43] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:16:00:45] - MConfiguration - RecupereConf() : récupération réussit
-[20:16:01:70] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:16:01:83] - MFiltre_Eleve - init() : Initialisation réussit
-[20:16:01:83] - FEN_MAIN - Ouverture de FI_Eleves
-[20:16:01:86] - FI_Eleves - Ouverture
-[20:16:01:87] - MEleve - ListeEleves() : on liste les élèves
-[20:16:02:05] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:16:02:82] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:16:02:82] - FI_Eleves - Fermeture
-[20:16:02:85] - FI_Comptabilite - Ouverture
-[20:16:02:85] - MFacture - ListeFacture() : on liste les factures
-[20:16:02:85] - MFacture - ListeFacture() : on a listé <15> factures
-[20:16:02:85] - MCompte - ListeCompte() : on liste les factures
-[20:16:02:85] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:16:03:71] - FI_Comptabilite - Fermeture
-[20:16:03:78] - FI_Facture - Ouverture
-[20:16:03:88] - MFacture - ListeFacture() : on liste les factures
-[20:16:03:88] - MFacture - ListeFacture() : on a listé <15> factures
-[20:16:10:56] - FI_Facture - BTN_Imprimer
-[20:17:19:03] - FI_Facture - Fermeture
-[20:17:19:18] - FI_Eleves - Fermeture
-[20:17:19:22] - Fermeture
-
-
-[20:32:56:28] - Ouverture
-[20:32:56:33] - FEN_Authentification - Ouverture
-[20:32:56:36] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:32:56:37] - MConfiguration - RecupereConf() : récupération réussit
-[20:32:57:60] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:32:57:73] - MFiltre_Eleve - init() : Initialisation réussit
-[20:32:57:73] - FEN_MAIN - Ouverture de FI_Eleves
-[20:32:57:77] - FI_Eleves - Ouverture
-[20:32:57:77] - MEleve - ListeEleves() : on liste les élèves
-[20:32:57:95] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:32:58:87] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:32:58:87] - FI_Eleves - Fermeture
-[20:32:58:90] - FI_Comptabilite - Ouverture
-[20:32:58:90] - MFacture - ListeFacture() : on liste les factures
-[20:32:58:91] - MFacture - ListeFacture() : on a listé <15> factures
-[20:32:58:91] - MCompte - ListeCompte() : on liste les factures
-[20:32:58:91] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:32:59:91] - FI_Comptabilite - Ajout d'une facture
-[20:33:00:09] - FEN_AjouterFacture - Ouverture
-[20:33:01:76] - FEN_AjouterFacture - Fermeture
-[20:33:02:67] - FI_Comptabilite - Fermeture
-[20:33:02:74] - FI_Facture - Ouverture
-[20:33:02:83] - MFacture - ListeFacture() : on liste les factures
-[20:33:02:83] - MFacture - ListeFacture() : on a listé <15> factures
-[20:33:04:21] - FEN_AjouterFacture - Ouverture
-[20:33:09:02] - FEN_AjouterFacture - Fermeture
-[20:33:11:55] - FI_Facture - Fermeture
-[20:33:11:70] - FI_Eleves - Fermeture
-[20:33:11:73] - Fermeture
-
-
-[20:49:36:83] - Ouverture
-[20:49:36:88] - FEN_Authentification - Ouverture
-[20:49:36:91] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:49:36:92] - MConfiguration - RecupereConf() : récupération réussit
-[20:49:38:15] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:49:38:28] - MFiltre_Eleve - init() : Initialisation réussit
-[20:49:38:28] - FEN_MAIN - Ouverture de FI_Eleves
-[20:49:38:32] - FI_Eleves - Ouverture
-[20:49:38:32] - MEleve - ListeEleves() : on liste les élèves
-[20:49:38:49] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:49:39:30] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:49:39:30] - FI_Eleves - Fermeture
-[20:49:39:33] - FI_Comptabilite - Ouverture
-[20:49:39:33] - MFacture - ListeFacture() : on liste les factures
-[20:49:39:33] - MFacture - ListeFacture() : on a listé <15> factures
-[20:49:39:33] - MCompte - ListeCompte() : on liste les factures
-[20:49:39:34] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:49:40:41] - FI_Comptabilite - Fermeture
-[20:49:40:48] - FI_Facture - Ouverture
-[20:49:40:57] - MFacture - ListeFacture() : on liste les factures
-[20:49:40:57] - MFacture - ListeFacture() : on a listé <15> factures
-[20:49:44:27] - FI_Facture - Fermeture
-[20:49:44:32] - FI_Comptabilite - Ouverture
-[20:49:44:32] - MFacture - ListeFacture() : on liste les factures
-[20:49:44:33] - MFacture - ListeFacture() : on a listé <15> factures
-[20:49:44:33] - MCompte - ListeCompte() : on liste les factures
-[20:49:44:34] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:49:47:16] - FI_Comptabilite - Fermeture
-[20:49:47:29] - FI_Eleves - Fermeture
-[20:49:47:33] - Fermeture
-
-
-[20:50:43:89] - Ouverture
-[20:50:43:94] - FEN_Authentification - Ouverture
-[20:50:43:97] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:50:43:98] - MConfiguration - RecupereConf() : récupération réussit
-[20:50:45:19] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:50:45:33] - MFiltre_Eleve - init() : Initialisation réussit
-[20:50:45:33] - FEN_MAIN - Ouverture de FI_Eleves
-[20:50:45:37] - FI_Eleves - Ouverture
-[20:50:45:37] - MEleve - ListeEleves() : on liste les élèves
-[20:50:45:54] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:50:46:30] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:50:46:30] - FI_Eleves - Fermeture
-[20:50:46:33] - FI_Comptabilite - Ouverture
-[20:50:46:33] - MFacture - ListeFacture() : on liste les factures
-[20:50:46:33] - MFacture - ListeFacture() : on a listé <15> factures
-[20:50:46:33] - MCompte - ListeCompte() : on liste les factures
-[20:50:46:33] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:50:46:88] - FI_Comptabilite - Fermeture
-[20:50:46:95] - FI_Facture - Ouverture
-[20:50:47:04] - MFacture - ListeFacture() : on liste les factures
-[20:50:47:04] - MFacture - ListeFacture() : on a listé <15> factures
-[20:50:56:03] - FEN_AjouterFacture - Ouverture
-[20:50:57:91] - FEN_AjouterFacture - Fermeture
-[20:51:00:75] - FI_Facture - Fermeture
-[20:51:00:80] - FI_Comptabilite - Ouverture
-[20:51:00:80] - MFacture - ListeFacture() : on liste les factures
-[20:51:00:80] - MFacture - ListeFacture() : on a listé <15> factures
-[20:51:00:80] - MCompte - ListeCompte() : on liste les factures
-[20:51:00:83] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:51:03:06] - FI_Comptabilite - Fermeture
-[20:51:03:12] - FI_Facture - Ouverture
-[20:51:03:19] - MFacture - ListeFacture() : on liste les factures
-[20:51:03:20] - MFacture - ListeFacture() : on a listé <15> factures
-[20:51:09:45] - FEN_AjouterFacture - Ouverture
-[20:51:11:28] - FEN_AjouterFacture - Fermeture
-[20:51:12:29] - FI_Facture - Fermeture
-[20:51:12:34] - FI_Comptabilite - Ouverture
-[20:51:12:34] - MFacture - ListeFacture() : on liste les factures
-[20:51:12:34] - MFacture - ListeFacture() : on a listé <15> factures
-[20:51:12:34] - MCompte - ListeCompte() : on liste les factures
-[20:51:12:36] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:51:14:32] - FEN_MAIN - Ouverture de FI_Documents
-[20:51:14:32] - FI_Comptabilite - Fermeture
-[20:51:14:40] - FI_Documents - Ouverture
-[20:51:14:40] - MDocument - ListeDocuments() : on liste les documents
-[20:51:14:42] - MDocument - ListeDocuments() : on a listé <2> documents
-[20:51:15:00] - FEN_MAIN - Ouverture de FI_Configuration
-[20:51:15:00] - FI_Documents - Fermeture
-[20:51:15:17] - FI_Configuration - Ouverture
-[20:51:15:17] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:51:15:17] - MConfiguration - RecupereConf() : récupération réussit
-[20:51:16:51] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:51:16:51] - FI_Configuration - Fermeture
-[20:51:16:54] - FI_Comptabilite - Ouverture
-[20:51:16:54] - MFacture - ListeFacture() : on liste les factures
-[20:51:16:54] - MFacture - ListeFacture() : on a listé <15> factures
-[20:51:16:54] - MCompte - ListeCompte() : on liste les factures
-[20:51:16:57] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:51:17:25] - FI_Comptabilite - Fermeture
-[20:51:17:31] - FI_Facture - Ouverture
-[20:51:17:40] - MFacture - ListeFacture() : on liste les factures
-[20:51:17:40] - MFacture - ListeFacture() : on a listé <15> factures
-[20:51:20:33] - FI_Facture - Fermeture
-[20:51:20:48] - FI_Eleves - Fermeture
-[20:51:20:52] - Fermeture
-
-
-[20:52:14:19] - Ouverture
-[20:52:14:25] - FEN_Authentification - Ouverture
-[20:52:14:28] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:52:14:30] - MConfiguration - RecupereConf() : récupération réussit
-[20:52:15:51] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:52:15:64] - MFiltre_Eleve - init() : Initialisation réussit
-[20:52:15:64] - FEN_MAIN - Ouverture de FI_Eleves
-[20:52:15:68] - FI_Eleves - Ouverture
-[20:52:15:68] - MEleve - ListeEleves() : on liste les élèves
-[20:52:15:85] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:52:16:75] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:52:16:75] - FI_Eleves - Fermeture
-[20:52:16:78] - FI_Comptabilite - Ouverture
-[20:52:16:78] - MFacture - ListeFacture() : on liste les factures
-[20:52:16:78] - MFacture - ListeFacture() : on a listé <15> factures
-[20:52:16:78] - MCompte - ListeCompte() : on liste les factures
-[20:52:16:78] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:52:17:30] - FI_Comptabilite - Fermeture
-[20:52:17:38] - FI_Facture - Ouverture
-[20:52:17:47] - MFacture - ListeFacture() : on liste les factures
-[20:52:17:47] - MFacture - ListeFacture() : on a listé <15> factures
-[20:52:19:79] - FEN_AjouterFacture - Ouverture
-[20:52:21:78] - FEN_AjouterFacture - Fermeture
-[20:52:47:00] - FEN_AjouterFacture - Ouverture
-[20:52:48:80] - FEN_AjouterFacture - Fermeture
-[20:53:17:93] - Ouverture
-[20:53:17:99] - FEN_Authentification - Ouverture
-[20:53:18:02] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
-[20:53:18:05] - MConfiguration - RecupereConf() : récupération réussit
-[20:53:19:26] - MFiltre_Eleve - init() : Initialisation des filtres élèves
-[20:53:19:40] - MFiltre_Eleve - init() : Initialisation réussit
-[20:53:19:40] - FEN_MAIN - Ouverture de FI_Eleves
-[20:53:19:43] - FI_Eleves - Ouverture
-[20:53:19:43] - MEleve - ListeEleves() : on liste les élèves
-[20:53:19:60] - MEleve - ListeEleves() : on a listé <7> élèves
-[20:55:52:96] - FEN_MAIN - Ouverture de FI_Comptabilite
-[20:55:52:96] - FI_Eleves - Fermeture
-[20:55:52:99] - FI_Comptabilite - Ouverture
-[20:55:52:99] - MFacture - ListeFacture() : on liste les factures
-[20:55:52:99] - MFacture - ListeFacture() : on a listé <15> factures
-[20:55:52:99] - MCompte - ListeCompte() : on liste les factures
-[20:55:52:99] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:55:54:40] - FI_Comptabilite - Fermeture
-[20:55:54:47] - FI_Facture - Ouverture
-[20:55:54:56] - MFacture - ListeFacture() : on liste les factures
-[20:55:54:57] - MFacture - ListeFacture() : on a listé <15> factures
-[20:55:57:66] - FEN_AjouterFacture - Ouverture
-[20:55:59:57] - FEN_AjouterFacture - Fermeture
-[20:55:59:95] - MFacture - enregistre() : on enregistre la facture <8>
-[20:55:59:95] - MFacture - SupprimeMoi() : on supprime la facture <8>
-[20:55:59:96] - MFacture - SupprimeMoi() : la suppression a réussit
-[20:55:59:96] - MFacture - ListeFacture() : on liste les factures
-[20:55:59:96] - MFacture - ListeFacture() : on a listé <14> factures
-[20:56:02:60] - FI_Facture - Fermeture
-[20:56:02:64] - FI_Comptabilite - Ouverture
-[20:56:02:64] - MFacture - ListeFacture() : on liste les factures
-[20:56:02:65] - MFacture - ListeFacture() : on a listé <14> factures
-[20:56:02:65] - MCompte - ListeCompte() : on liste les factures
-[20:56:02:65] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:56:03:59] - FI_Comptabilite - Fermeture
-[20:56:03:65] - FI_Facture - Ouverture
-[20:56:03:73] - MFacture - ListeFacture() : on liste les factures
-[20:56:03:73] - MFacture - ListeFacture() : on a listé <14> factures
-[20:56:05:53] - FEN_AjouterFacture - Ouverture
-[20:56:10:09] - FEN_AjouterFacture - Fermeture
-[20:56:10:48] - MFacture - enregistre() : on enregistre la facture <5>
-[20:56:10:48] - MFacture - SupprimeMoi() : on supprime la facture <5>
-[20:56:10:48] - MFacture - SupprimeMoi() : la suppression a réussit
-[20:56:10:48] - MFacture - ListeFacture() : on liste les factures
-[20:56:10:48] - MFacture - ListeFacture() : on a listé <13> factures
-[20:56:12:03] - FI_Facture - Fermeture
-[20:56:12:07] - FI_Comptabilite - Ouverture
-[20:56:12:07] - MFacture - ListeFacture() : on liste les factures
-[20:56:12:08] - MFacture - ListeFacture() : on a listé <13> factures
-[20:56:12:08] - MCompte - ListeCompte() : on liste les factures
-[20:56:12:08] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:56:19:71] - FI_Comptabilite - Fermeture
-[20:56:19:77] - FI_Facture - Ouverture
-[20:56:19:85] - MFacture - ListeFacture() : on liste les factures
-[20:56:19:85] - MFacture - ListeFacture() : on a listé <13> factures
-[20:56:21:33] - FEN_AjouterFacture - Ouverture
-[20:56:23:63] - FEN_AjouterFacture - Fermeture
-[20:56:23:99] - MFacture - enregistre() : on enregistre la facture <10>
-[20:56:23:99] - MFacture - SupprimeMoi() : on supprime la facture <10>
-[20:56:24:00] - MFacture - SupprimeMoi() : la suppression a réussit
-[20:56:24:00] - MFacture - ListeFacture() : on liste les factures
-[20:56:24:00] - MFacture - ListeFacture() : on a listé <12> factures
-[20:56:25:00] - FI_Facture - Fermeture
-[20:56:25:04] - FI_Comptabilite - Ouverture
-[20:56:25:04] - MFacture - ListeFacture() : on liste les factures
-[20:56:25:05] - MFacture - ListeFacture() : on a listé <12> factures
-[20:56:25:05] - MCompte - ListeCompte() : on liste les factures
-[20:56:25:05] - MCompte - ListeCompte() : on a listé <3> comptes
-[20:56:31:82] - FI_Comptabilite - Fermeture
-[20:56:31:94] - FI_Eleves - Fermeture
-[20:56:31:98] - Fermeture
+[19:44:00:49] - Ouverture
+[19:44:00:59] - FEN_Authentification - Ouverture
+[19:44:00:65] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:44:00:67] - MConfiguration - RecupereConf() : récupération réussit
+[19:44:02:00] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:44:02:17] - MFiltre_Eleve - init() : Initialisation réussit
+[19:44:02:17] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:44:02:17] - MFiltre_Impression - init() : Initialisation réussit
+[19:44:02:18] - FEN_MAIN - Ouverture de FI_Eleves
+[19:44:02:24] - FI_Eleves - Ouverture
+[19:44:02:24] - MEleve - ListeEleves() : on liste les élèves
+[19:44:02:50] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:44:03:88] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:44:03:88] - FI_Eleves - Fermeture
+[19:44:03:93] - FI_Comptabilite - Ouverture
+[19:44:03:93] - MFacture - ListeFacture() : on liste les factures
+[19:44:03:93] - MFacture - ListeFacture() : on a listé <12> factures
+[19:44:03:93] - MCompte - ListeCompte() : on liste les factures
+[19:44:03:94] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:44:04:72] - FI_Comptabilite - Fermeture
+[19:44:04:85] - FI_Facture - Ouverture
+[19:44:05:01] - MFacture - ListeFacture() : on liste les factures
+[19:44:05:01] - MFacture - ListeFacture() : on a listé <12> factures
+[19:44:05:82] - FEN_Filtres - Ouverture
+[19:44:14:21] - FEN_Filtres - Fermeture
+[19:44:14:23] - MFacture - ListeFacture() : on liste les factures
+[19:44:14:24] - MFacture - ListeFacture() : on a listé <12> factures
+[19:44:15:63] - FI_Facture - Fermeture
+[19:44:15:70] - FI_Comptabilite - Ouverture
+[19:44:15:70] - MFacture - ListeFacture() : on liste les factures
+[19:44:15:70] - MFacture - ListeFacture() : on a listé <12> factures
+[19:44:15:70] - MCompte - ListeCompte() : on liste les factures
+[19:44:15:70] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:44:29:96] - FEN_MAIN - Ouverture de FI_Eleves
+[19:44:29:96] - FI_Comptabilite - Fermeture
+[19:44:30:11] - FI_Eleves - Ouverture
+[19:44:30:11] - MEleve - ListeEleves() : on liste les élèves
+[19:44:30:12] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:44:31:60] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:44:31:60] - FI_Eleves - Fermeture
+[19:44:31:65] - FI_Comptabilite - Ouverture
+[19:44:31:65] - MFacture - ListeFacture() : on liste les factures
+[19:45:02:28] - MFacture - ListeFacture() : on a listé <12> factures
+[19:45:02:28] - MCompte - ListeCompte() : on liste les factures
+[19:45:02:28] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:45:04:53] - FI_Comptabilite - Fermeture
+[19:45:04:64] - FI_Facture - Ouverture
+[19:45:04:78] - MFacture - ListeFacture() : on liste les factures
+[19:48:29:75] - Ouverture
+[19:48:29:87] - FEN_Authentification - Ouverture
+[19:48:29:93] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:48:29:94] - MConfiguration - RecupereConf() : récupération réussit
+[19:48:31:30] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:48:31:48] - MFiltre_Eleve - init() : Initialisation réussit
+[19:48:31:48] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:48:31:48] - MFiltre_Impression - init() : Initialisation réussit
+[19:48:31:49] - FEN_MAIN - Ouverture de FI_Eleves
+[19:48:31:56] - FI_Eleves - Ouverture
+[19:48:31:56] - MEleve - ListeEleves() : on liste les élèves
+[19:48:31:83] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:48:34:22] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:48:34:22] - FI_Eleves - Fermeture
+[19:48:34:26] - FI_Comptabilite - Ouverture
+[19:48:34:26] - MFacture - ListeFacture() : on liste les factures
+[19:49:11:90] - MFacture - ListeFacture() : on a listé <12> factures
+[19:49:11:90] - MCompte - ListeCompte() : on liste les factures
+[19:49:11:93] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:49:16:77] - FI_Comptabilite - Fermeture
+[19:49:16:89] - FI_Facture - Ouverture
+[19:49:17:05] - MFacture - ListeFacture() : on liste les factures
+[19:49:41:79] - Ouverture
+[19:49:41:89] - FEN_Authentification - Ouverture
+[19:49:41:96] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:49:41:99] - MConfiguration - RecupereConf() : récupération réussit
+[19:49:43:32] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:49:43:49] - MFiltre_Eleve - init() : Initialisation réussit
+[19:49:43:49] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:49:43:49] - MFiltre_Impression - init() : Initialisation réussit
+[19:49:43:50] - FEN_MAIN - Ouverture de FI_Eleves
+[19:49:43:56] - FI_Eleves - Ouverture
+[19:49:43:56] - MEleve - ListeEleves() : on liste les élèves
+[19:49:43:83] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:49:44:89] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:49:44:89] - FI_Eleves - Fermeture
+[19:49:44:94] - FI_Comptabilite - Ouverture
+[19:49:44:94] - MFacture - ListeFacture() : on liste les factures
+[19:49:44:94] - MFacture - ListeFacture() : on a listé <12> factures
+[19:49:44:94] - MCompte - ListeCompte() : on liste les factures
+[19:49:44:97] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:49:47:83] - FI_Comptabilite - Fermeture
+[19:49:47:94] - FI_Facture - Ouverture
+[19:49:48:10] - MFacture - ListeFacture() : on liste les factures
+[19:49:48:10] - MFacture - ListeFacture() : on a listé <12> factures
+[19:49:49:45] - FEN_Filtres - Ouverture
+[19:49:53:70] - FEN_Filtres - Fermeture
+[19:49:53:87] - MFacture - ListeFacture() : on liste les factures
+[19:49:53:88] - MFacture - ListeFacture() : on a listé <9> factures
+[19:49:56:43] - FEN_Filtres - Ouverture
+[19:50:12:13] - FEN_Filtres - Fermeture
+[19:50:12:29] - MFacture - ListeFacture() : on liste les factures
+[19:50:12:30] - MFacture - ListeFacture() : on a listé <12> factures
+[19:50:31:04] - FEN_Filtres - Ouverture
+[19:50:39:02] - FEN_Filtres - Fermeture
+[19:50:39:31] - MFacture - ListeFacture() : on liste les factures
+[19:50:39:33] - MFacture - ListeFacture() : on a listé <12> factures
+[19:50:52:00] - FEN_Filtres - Ouverture
+[19:52:41:26] - Ouverture
+[19:52:41:36] - FEN_Authentification - Ouverture
+[19:52:41:42] - MConfiguration - RecupereConf() : récupération des fichiers de configuration
+[19:52:41:46] - MConfiguration - RecupereConf() : récupération réussit
+[19:52:42:81] - MFiltre_Eleve - init() : Initialisation des filtres élèves
+[19:52:42:98] - MFiltre_Eleve - init() : Initialisation réussit
+[19:52:42:98] - MFiltre_Impression - init() : Initialisation du filtre d'impression
+[19:52:42:98] - MFiltre_Impression - init() : Initialisation réussit
+[19:52:42:98] - MFiltre_Facture - init() : Initialisation des filtres factures
+[19:52:43:00] - MFiltre_Facture - init() : Initialisation réussit
+[19:52:43:00] - FEN_MAIN - Ouverture de FI_Eleves
+[19:52:43:06] - FI_Eleves - Ouverture
+[19:52:43:06] - MEleve - ListeEleves() : on liste les élèves
+[19:52:43:33] - MEleve - ListeEleves() : on a listé <7> élèves
+[19:52:44:40] - FEN_MAIN - Ouverture de FI_Comptabilite
+[19:52:44:40] - FI_Eleves - Fermeture
+[19:52:44:44] - FI_Comptabilite - Ouverture
+[19:52:44:44] - MFacture - ListeFacture() : on liste les factures
+[19:52:44:45] - MFacture - ListeFacture() : on a listé <12> factures
+[19:52:44:45] - MCompte - ListeCompte() : on liste les factures
+[19:52:44:45] - MCompte - ListeCompte() : on a listé <3> comptes
+[19:52:45:17] - FI_Comptabilite - Fermeture
+[19:52:45:28] - FI_Facture - Ouverture
+[19:52:45:43] - MFacture - ListeFacture() : on liste les factures
+[19:52:45:44] - MFacture - ListeFacture() : on a listé <12> factures
+[19:52:48:42] - FEN_Filtres - Ouverture
+[19:53:04:56] - FEN_Filtres - Fermeture
+[19:53:04:59] - MFacture - ListeFacture() : on liste les factures
+[19:53:04:60] - MFacture - ListeFacture() : on a listé <12> factures
+[19:53:05:99] - FEN_Filtres - Ouverture
+[19:53:12:65] - FEN_Filtres - Fermeture
+[19:53:12:83] - MFacture - ListeFacture() : on liste les factures
+[19:53:12:83] - MFacture - ListeFacture() : on a listé <1> factures
+[19:53:22:44] - FI_Facture - Fermeture
+[19:53:22:67] - FI_Eleves - Fermeture
+[19:53:22:75] - MFiltre_Eleve - Enregistre() : on enregistre les filtres
+[19:53:22:75] - MFiltre_Eleve - Enregistre() : l'enregistre a réussie
+[19:53:22:75] - Fermeture
 
 
